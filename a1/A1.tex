@@ -2,6 +2,7 @@
 \usepackage{amsmath, amssymb}
 \usepackage{latexsym, upgreek}
 \usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage{wasysym}
 
 \title{CSC 343: Assignment 1}
 \author{Zeeshan Qureshi \\ Jaideep Bajwa}
@@ -11,9 +12,16 @@
   \section{Queries}
   \begin{enumerate}
     \item 
-      \ \newline
-       $ BR(retailer)  :=  x + y $ \\
-       $ BRStores(store)  :=  c + d $ \\
+      \begin{IEEEeqnarray*}{RCl}
+        BR(retailer) & := & \quad \Uppi_{ID} 
+        \: \upsigma_{name = ``Banana Republic"} \: (Ret) \\
+        BRStores(store) & := & \quad \Uppi_{ID} 
+        \: \upsigma_{country = ``Canada"} \: (Store \: \Bowtie \: BR) \\
+        Members & := & \quad \Uppi_{memNum} 
+        \: \upsigma_{amount > 2000} \: (Trans \: \Bowtie \: BRStores) \\
+        Result & := & \quad \Uppi_{name} 
+        \: (Mem \: \Bowtie \: Members) \\
+      \end{IEEEeqnarray*}
   \end{enumerate}
 
   \section{Integrity Constraints}
