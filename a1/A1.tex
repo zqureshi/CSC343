@@ -4,10 +4,14 @@
 \usepackage[retainorgcmds]{IEEEtrantools}
 \usepackage{wasysym}
 \usepackage[T1]{fontenc}
-\usepackage{txfonts}
+\usepackage{pxfonts}
+\usepackage[pdftex]{hyperref}
 
 \title{CSC 343: Assignment 1}
 \author{Zeeshan Qureshi \\ Jaideep Bajwa}
+
+\hypersetup{pdftitle = {CSC 343: Assignment 1},
+            pdfauthor = {Zeeshan Qureshi}}
 
 \begin{document}
   \maketitle
@@ -48,11 +52,11 @@
     \item 
       Using relations from previous question \ldots
       \begin{IEEEeqnarray*}{RCl}
-        NotSecLarg(memNum, amount) & := & \quad \Uppi_{m_1, a_1}
+        NotSecond(memNum, amount) & := & \quad \Uppi_{m_1, a_1}
         \: \upsigma_{(m_1 \neq m_2) \wedge (a_1 < a_2)} \\
-        & & \quad ((\upvarrho_{T1(m_1,\:a_1)}\:NotLargest) \\
-        & & \quad \Join (\upvarrho_{T2(m_2,\:a_2)}\:NotLargest))\\
-        Result & := & \quad NotLargest - NotSecLarg
+        & & \quad ((\upvarrho_{T1(m_1,\:a_1)}\:NotLargest) 
+        \Join (\upvarrho_{T2(m_2,\:a_2)}\:NotLargest))\\
+        Result & := & \quad NotLargest - NotSecond
       \end{IEEEeqnarray*}
     \item
       Cannot be expressed since it requires summing over the number of
