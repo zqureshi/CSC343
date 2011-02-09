@@ -20,7 +20,14 @@
         Members & := & \quad \Uppi_{memNum} 
         \: \upsigma_{amount > 2000} \: (Trans \: \Bowtie \: BRStores) \\
         Result & := & \quad \Uppi_{name} 
-        \: (Mem \: \Bowtie \: Members) \\
+        \: (Mem \: \Bowtie \: Members)
+      \end{IEEEeqnarray*}
+    \item 
+      \begin{IEEEeqnarray*}{RCl}
+        NoCards & := & \quad (\Uppi_{memNum} \: (Mem)) -
+        \: (\Uppi_{Memnum} \: (Card)) \\
+        Result & := & \quad \Uppi_{name, phone} \:
+        (NoCards \: \Bowtie \: Mem)
       \end{IEEEeqnarray*}
   \end{enumerate}
 
