@@ -14,21 +14,47 @@
     \item 
       \begin{IEEEeqnarray*}{RCl}
         BR(retailer) & := & \quad \Uppi_{ID} 
-        \: \upsigma_{name = ``Banana Republic"} \: (Ret) \\
+        \: \upsigma_{name = ``Banana\:Republic"} \: (Ret) \\
         BRStores(store) & := & \quad \Uppi_{ID} 
-        \: \upsigma_{country = ``Canada"} \: (Store \: \Bowtie \: BR) \\
+        \: \upsigma_{country = ``Canada"} \: (Store \Join BR) \\
         Members & := & \quad \Uppi_{memNum} 
-        \: \upsigma_{amount > 2000} \: (Trans \: \Bowtie \: BRStores) \\
+        \: \upsigma_{amount > 2000} \: (Trans \Join BRStores) \\
         Result & := & \quad \Uppi_{name} 
-        \: (Mem \: \Bowtie \: Members)
+        \: (Mem \: \Join \: Members)
       \end{IEEEeqnarray*}
     \item 
       \begin{IEEEeqnarray*}{RCl}
         NoCards & := & \quad (\Uppi_{memNum} \: (Mem)) -
         \: (\Uppi_{Memnum} \: (Card)) \\
-        Result & := & \quad \Uppi_{name, phone} \:
-        (NoCards \: \Bowtie \: Mem)
+        Result & := & \quad \Uppi_{name,\:phone} \:
+        (NoCards \Join Mem)
       \end{IEEEeqnarray*}
+    \item 
+      \begin{IEEEeqnarray*}{RCl}
+        BC(retailer) & := & \quad \Uppi_{ID} 
+        \: \upsigma_{name = ``Book\:City"} \: (Ret) \\
+        BCStores(store) & := & \quad \Uppi_{ID} 
+        \: (Store \Join BC) \\
+        BCTrans & := & \quad \Uppi_{memNum,\:amount} 
+        \: (Trans \Join BCStores) \\
+        NotLargest(memNum, amount) & := & \quad \Uppi_{m_1, a_1}
+        \: \upsigma_{(m_1 \neq m_2) \wedge (a_1 < a_2)} \\
+        & & \quad ((\upvarrho_{T1(m_1,\:a_1)}\:BCTrans) \Join
+        (\upvarrho_{T2(m_2,\:a_2)}\:BCTrans))\\
+        Result & := & \quad BCTrans - NotLargest
+      \end{IEEEeqnarray*}
+    \item 
+      Using relations from previous question \ldots
+      \begin{IEEEeqnarray*}{RCl}
+        NotSecLarg(memNum, amount) & := & \quad \Uppi_{m_1, a_1}
+        \: \upsigma_{(m_1 \neq m_2) \wedge (a_1 < a_2)} \\
+        & & \quad ((\upvarrho_{T1(m_1,\:a_1)}\:NotLargest) \\
+        & & \quad \Join (\upvarrho_{T2(m_2,\:a_2)}\:NotLargest))\\
+        Result & := & \quad NotLargest - NotSecLarg
+      \end{IEEEeqnarray*}
+    \item
+      Cannot be expressed since it requires summing over the number of
+      tuples, which is not possible in this subset of Relational Algebra.
   \end{enumerate}
 
   \section{Integrity Constraints}
