@@ -50,7 +50,7 @@
         Result & := & \quad BCTrans - NotLargest
       \end{IEEEeqnarray*}
     \item 
-      Using relations from previous query \ldots
+      Using relations from query 3 \ldots
       \begin{IEEEeqnarray*}{RCl}
         NotSecond(memNum, amount) & := & \quad \Uppi_{m_1, a_1}
         \: \upsigma_{(m_1 \neq m_2) \wedge (a_1 < a_2)} \\
@@ -61,7 +61,7 @@
     \item
       Cannot be expressed since it requires summing over the number of
       tuples, which is not possible in this subset of Relational Algebra.
-    \item Using relations from previous query \ldots
+    \item Using relations from query 3 \ldots
       \begin{IEEEeqnarray*}{RCl}
         AllPossible(memNum, store) & := & \quad
         (\Uppi_{memNum} \: BCTrans) \Join (BCStores) \\
@@ -72,5 +72,20 @@
         Result & := & \quad
         (\Uppi_{memNum} \: AllPossible) - (\Uppi_{memNum} \: NotAll)
       \end{IEEEeqnarray*}
+    \item
+      \begin{IEEEeqnarray*}{RCl}
+        TwoOrMore(retailer) & := & \quad
+        \Uppi_{retailer} \: \upsigma_{(ID < ID2) \wedge 
+          (retailer = retailer2)} \\
+        & & \quad (Store \times 
+        (\upvarrho_{S2(ID2, \: retailer2)} \: Store)) \\
+        OnlyOne(ID) & := & \quad
+        (\Uppi_{retailer} \: Store) - TwoOrMore \\
+        Result & := & \quad
+        \Uppi_{name} \: (OnlyOne \Join Ret)
+      \end{IEEEeqnarray*}
+    \item
+      Cannot be expressed since it requires summing over the tuples of
+      transactions for every Roots store.
   \end{enumerate}
 \end{document}
