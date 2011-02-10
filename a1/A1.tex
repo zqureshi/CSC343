@@ -131,5 +131,28 @@ pdfauthor = {Zeeshan Qureshi}}
       (\Uppi_{cardNum} \: \upsigma_{limit \: > \: 10000} \: Card) - 
       MoreThanOne
     \end{IEEEeqnarray*}
+  \item
+    \begin{IEEEeqnarray*}{RCl}
+      Purchases & := & \quad
+      (\Uppi_{cardNum} \: Card) \Join (\Uppi_{cardNum} \: Trans) \\
+      Payments & := & \quad
+      (\Uppi_{cardNum} \: Card) \Join (\Uppi_{cardNum} \: Pmt) \\
+      Result & := & \quad
+      (\Uppi_{cardNum} \: Card) - Purchases - Payments
+    \end{IEEEeqnarray*}
+  \item
+    \begin{IEEEeqnarray*}{RCl}
+      SuppCard & := & \quad \Uppi_{memNum, \: cardNum} \: Supp \\
+      AtLeastTwo & := & \quad \upsigma_{(cardNum \: < \: cardNum2)} \\
+      & & \quad (SuppCard \Join (\upvarrho_{S(memNum, \: cardNum2)} 
+      \: SuppCard)) \\
+      AtLeastThree & := & \quad 
+      \upsigma_{(cardnum \: < \: cardNum3) \: \wedge 
+      \: (cardNum2 \: < \: cardNum3)} \\
+      & & \quad (AtLeastTwo \Join (\upvarrho_{S(memNum, \: cardNum3)} 
+      \: SuppCard)) \\
+      Result & := & \quad \Uppi_{name} \: 
+      ((\Uppi_{memNum} \: AtLeastThree) \Join Mem)
+    \end{IEEEeqnarray*}
 \end{enumerate}
 \end{document}
