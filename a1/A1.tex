@@ -50,7 +50,7 @@
         Result & := & \quad BCTrans - NotLargest
       \end{IEEEeqnarray*}
     \item 
-      Using relations from previous question \ldots
+      Using relations from previous query \ldots
       \begin{IEEEeqnarray*}{RCl}
         NotSecond(memNum, amount) & := & \quad \Uppi_{m_1, a_1}
         \: \upsigma_{(m_1 \neq m_2) \wedge (a_1 < a_2)} \\
@@ -61,5 +61,16 @@
     \item
       Cannot be expressed since it requires summing over the number of
       tuples, which is not possible in this subset of Relational Algebra.
+    \item Using relations from previous query \ldots
+      \begin{IEEEeqnarray*}{RCl}
+        AllPossible(memNum, store) & := & \quad
+        (\Uppi_{memNum} \: BCTrans) \Join (BCStores) \\
+        Purchases & := & \quad
+        \Uppi_{memNum, \: store} \: (Trans \Join BCStores) \\
+        NotAll & := & \quad
+        AllPossible - Purchases \\
+        Result & := & \quad
+        (\Uppi_{memNum} \: AllPossible) - (\Uppi_{memNum} \: NotAll)
+      \end{IEEEeqnarray*}
   \end{enumerate}
 \end{document}
