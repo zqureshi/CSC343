@@ -20,9 +20,9 @@
     \item 
       \begin{IEEEeqnarray*}{RCl}
         BR(retailer) & := & \quad \Uppi_{ID} 
-        \: \upsigma_{name = ``Banana\:Republic"} \: (Ret) \\
+        \: \upsigma_{name = \text{``Banana Republic''}} \: (Ret) \\
         BRStores(store) & := & \quad \Uppi_{ID} 
-        \: \upsigma_{country = ``Canada"} \: (Store \Join BR) \\
+        \: \upsigma_{country = \text{``Canada''}} \: (Store \Join BR) \\
         Members & := & \quad \Uppi_{memNum} 
         \: \upsigma_{amount > 2000} \: (Trans \Join BRStores) \\
         Result & := & \quad \Uppi_{name} 
@@ -38,7 +38,7 @@
     \item 
       \begin{IEEEeqnarray*}{RCl}
         BC(retailer) & := & \quad \Uppi_{ID} 
-        \: \upsigma_{name = ``Book\:City"} \: (Ret) \\
+        \: \upsigma_{name = \text{``Book\:City''}} \: (Ret) \\
         BCStores(store) & := & \quad \Uppi_{ID} 
         \: (Store \Join BC) \\
         BCTrans & := & \quad \Uppi_{memNum,\:amount} 
@@ -93,7 +93,25 @@
         (\Uppi_{memNum} \: Card) - (\Uppi_{memNum} \: Supp) \\
         Result & := & \quad
         \Uppi_{name} \: (NoSupp \Join 
-        (\upsigma_{(city=``Toronto" \wedge country=``Canada")}\:Mem))
+        (\upsigma_{(city=\text{``Toronto''} \: \wedge \:
+          country=\text{``Canada''})}\:Mem))
+      \end{IEEEeqnarray*}
+        \item
+      \begin{IEEEeqnarray*}{RCl}
+        PriWithSupp & := & \quad
+        \Uppi_{memNum, \: cardNum} \\
+        & & \quad ((\upvarrho_{Sup(cardNum, \: memSup, \: pLimit)} 
+        \: Supp) \Join Card) \\
+        AllMem & := & \quad
+        (\Uppi_{(memNum,\:cardNum)} \: Supp) \cup PrimaryWithSupp\\        
+        MInfo & := & \quad
+        \Uppi_{(country, \: cardNum, \: memNum)}\:(Mem \Join AllMem)\\
+        MInfo2 & := & \quad
+        \upvarrho_{MI2(country, \: cardNum, \: memNum2)} \: MInfo \\
+        SameCountry & := & \quad
+        \Uppi_{cardNum} \: \upsigma_{(memNum \: < \: memNum2)} \: 
+        (MInfo \Join MInfo2) \\
+        Result & := & \quad (\Uppi_{cardNum} \: MInfo) - SameCountry
       \end{IEEEeqnarray*}
   \end{enumerate}
 \end{document}
