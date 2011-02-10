@@ -120,5 +120,16 @@ pdfauthor = {Zeeshan Qureshi}}
       Result & := & \quad \Uppi_{cardNum} \: 
       ((\Uppi_{memNum} \: Card) \Join Supp)
     \end{IEEEeqnarray*}
+  \item
+    \begin{IEEEeqnarray*}{RCl}
+      SuppMem & := & \quad \Uppi_{cardNum, \: memNum} \: Supp \\
+      MoreThanOne & := & \quad \Uppi_{cardNum} \: 
+      \upsigma_{(memNum \: < \: memNum2)} \\
+      & & \quad (SuppMem \Join (\upvarrho_{S(cardNum, \: memNum2)} 
+      \: SuppMem)) \\
+      Result & := & \quad
+      (\Uppi_{cardNum} \: \upsigma_{limit \: > \: 10000} \: Card) - 
+      MoreThanOne
+    \end{IEEEeqnarray*}
 \end{enumerate}
 \end{document}
