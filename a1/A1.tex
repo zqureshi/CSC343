@@ -114,7 +114,6 @@ pdfauthor = {Zeeshan Qureshi}}
       Result & := & \quad (\Uppi_{cardNum} \: MInfo) - SameCountry
     \end{IEEEeqnarray*}
   \item
-    To typeset later
   \item
     \begin{IEEEeqnarray*}{RCl}
       Result & := & \quad \Uppi_{cardNum} \: 
@@ -153,6 +152,15 @@ pdfauthor = {Zeeshan Qureshi}}
       \: SuppCard)) \\
       Result & := & \quad \Uppi_{name} \: 
       ((\Uppi_{memNum} \: AtLeastThree) \Join Mem)
+    \end{IEEEeqnarray*}
+\end{enumerate}
+\section{Integrity Constraints} 
+\begin{enumerate}
+  \item 
+    \begin{IEEEeqnarray*}{RCl}
+      \upsigma_{country\neq\text{`CANADA'}}\: AND\: \upsigma_{country \neq
+      \text{'US'}} \:AND \: \upsigma_{country \neq \text{'Mexico'}}(Ret)
+      = \emptyset \\
     \end{IEEEeqnarray*}
 \end{enumerate}
 \end{document}
