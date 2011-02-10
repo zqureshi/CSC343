@@ -87,5 +87,13 @@
     \item
       Cannot be expressed since it requires summing over the tuples of
       transactions for every Roots store.
+    \item
+      \begin{IEEEeqnarray*}{RCl}
+        NoSupp & := & \quad
+        (\Uppi_{memNum} \: Card) - (\Uppi_{memNum} \: Supp) \\
+        Result & := & \quad
+        \Uppi_{name} \: (NoSupp \Join 
+        (\upsigma_{(city=``Toronto" \wedge country=``Canada")}\:Mem))
+      \end{IEEEeqnarray*}
   \end{enumerate}
 \end{document}
