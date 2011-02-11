@@ -114,6 +114,24 @@ pdfauthor = {Zeeshan Qureshi}}
       Result & := & \quad (\Uppi_{cardNum} \: MInfo) - SameCountry
     \end{IEEEeqnarray*}
   \item
+    \begin{IEEEeqnarray*}{RCl}
+      PriPmt & := & \quad \Uppi_{cardNum, \: memNum, \: amount} \:
+      ((\Uppi_{cardNum, \: memNum} \: Card) \Join Pmt) \\
+      NotMax & := & \quad \Uppi_{cardNum, \: memNum, \: amount} \:
+      \upsigma_{amount \: < \: amount2} \: \\
+      & & \quad (PriPmt \Join (\upvarrho_{P(cardNum, \: memNum, 
+      \: amount2)} \: PriPmt)) \\
+      MaxPriPmt & := & \quad 
+      \upvarrho_{P(cardNum, \: memPri, \: amtPri)} \:
+      (PriPmt - NotMax) \\
+      SuppPmt & := & \quad 
+      \upvarrho_{S(cardNum, \: memSupp, \: amtSupp)} \:
+      \Uppi_{cardNum, \: memNum, \: amount} \\
+      & & \quad ((\Uppi_{cardNum, \: memNum} \: Supp) \Join Pmt) \\
+      Result & := & \quad \Uppi_{cardNum, \: memSupp} \:
+      \upsigma_{amtSupp \: > \: amtPri} \:
+      (SuppPmt \Join MaxPriPmt)
+    \end{IEEEeqnarray*}
   \item
     \begin{IEEEeqnarray*}{RCl}
       Result & := & \quad \Uppi_{cardNum} \: 
