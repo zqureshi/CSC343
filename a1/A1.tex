@@ -30,8 +30,8 @@ pdfauthor = {Zeeshan Qureshi}}
     \end{IEEEeqnarray*}
   \item 
     \begin{IEEEeqnarray*}{RCl}
-      NoCards & := & \quad (\Uppi_{memNum} \: (Mem)) -
-      \: (\Uppi_{Memnum} \: (Card)) \\
+      NoCards & := & \quad (\Uppi_{memNum} \: Mem) -
+      \: (\Uppi_{Memnum} \: Card) \\
       Result & := & \quad \Uppi_{name,\:phone} \:
       (NoCards \Join Mem)
     \end{IEEEeqnarray*}
@@ -75,8 +75,8 @@ pdfauthor = {Zeeshan Qureshi}}
   \item
     \begin{IEEEeqnarray*}{RCl}
       TwoOrMore(retailer) & := & \quad
-      \Uppi_{retailer} \: \upsigma_{(ID < ID2) \wedge 
-      (retailer = retailer2)} \\
+      \Uppi_{retailer} \: \upsigma_{(ID \: < \: ID2) \: \wedge \:
+      (retailer \: = \: retailer2)} \\
       & & \quad (Store \times 
       (\upvarrho_{S2(ID2, \: retailer2)} \: Store)) \\
       OnlyOne(ID) & := & \quad
@@ -93,8 +93,8 @@ pdfauthor = {Zeeshan Qureshi}}
       (\Uppi_{memNum} \: Card) - (\Uppi_{memNum} \: Supp) \\
       Result & := & \quad
       \Uppi_{name} \: (NoSupp \Join 
-      (\upsigma_{(city=\text{``Toronto''} \: \wedge \:
-      country=\text{``Canada''})}\:Mem))
+      (\upsigma_{(city=\text{``Toronto''}) \: \wedge \:
+      (country=\text{``Canada''})}\:Mem))
     \end{IEEEeqnarray*}
   \item
     \begin{IEEEeqnarray*}{RCl}
@@ -103,13 +103,13 @@ pdfauthor = {Zeeshan Qureshi}}
       & & \quad ((\upvarrho_{Sup(cardNum, \: memSup, \: pLimit)} 
       \: Supp) \Join Card) \\
       AllMem & := & \quad
-      (\Uppi_{(memNum,\:cardNum)} \: Supp) \cup PrimaryWithSupp\\        
+      (\Uppi_{memNum,\:cardNum} \: Supp) \cup PrimaryWithSupp\\        
       MInfo & := & \quad
-      \Uppi_{(country, \: cardNum, \: memNum)}\:(Mem \Join AllMem)\\
+      \Uppi_{country, \: cardNum, \: memNum}\:(Mem \Join AllMem)\\
       MInfo2 & := & \quad
       \upvarrho_{MI2(country, \: cardNum, \: memNum2)} \: MInfo \\
       SameCountry & := & \quad
-      \Uppi_{cardNum} \: \upsigma_{(memNum \: < \: memNum2)} \: 
+      \Uppi_{cardNum} \: \upsigma_{memNum \: < \: memNum2} \: 
       (MInfo \Join MInfo2) \\
       Result & := & \quad (\Uppi_{cardNum} \: MInfo) - SameCountry
     \end{IEEEeqnarray*}
@@ -139,9 +139,9 @@ pdfauthor = {Zeeshan Qureshi}}
     \end{IEEEeqnarray*}
   \item
     \begin{IEEEeqnarray*}{RCl}
-      SuppMem & := & \quad \Uppi_{cardNum, \: memNum} \: Supp \\
+      SuppMem & := & \quad \Uppi_{cardNum, \: memNum} \: (Supp) \\
       MoreThanOne & := & \quad \Uppi_{cardNum} \: 
-      \upsigma_{(memNum \: < \: memNum2)} \\
+      \upsigma_{memNum \: < \: memNum2} \\
       & & \quad (SuppMem \Join (\upvarrho_{S(cardNum, \: memNum2)} 
       \: SuppMem)) \\
       Result & := & \quad
@@ -159,8 +159,8 @@ pdfauthor = {Zeeshan Qureshi}}
     \end{IEEEeqnarray*}
   \item
     \begin{IEEEeqnarray*}{RCl}
-      SuppCard & := & \quad \Uppi_{memNum, \: cardNum} \: Supp \\
-      AtLeastTwo & := & \quad \upsigma_{(cardNum \: < \: cardNum2)} \\
+      SuppCard & := & \quad \Uppi_{memNum, \: cardNum} \: (Supp) \\
+      AtLeastTwo & := & \quad \upsigma_{cardNum \: < \: cardNum2} \\
       & & \quad (SuppCard \Join (\upvarrho_{S(memNum, \: cardNum2)} 
       \: SuppCard)) \\
       AtLeastThree & := & \quad 
@@ -176,15 +176,14 @@ pdfauthor = {Zeeshan Qureshi}}
 \begin{enumerate}
   \item 
     \begin{IEEEeqnarray*}{RCl}
-      \upsigma_{country\neq\text{`CANADA'}}\: AND\: \upsigma_{country \neq
-      \text{'US'}} \:AND \: \upsigma_{country \neq \text{'Mexico'}}(Ret)
-      = \emptyset \\
+      \upsigma_{(country\neq\text{`Canada'}) \: AND \: 
+      (country \neq \text{`US'}) \: AND \: 
+      (country \neq \text{`Mexico'})}(Ret) = \emptyset \\
     \end{IEEEeqnarray*}
   \item 
     \begin{IEEEeqnarray*}{RCl}
-      \upsigma_{cardNum \: < \: 555555555} \: AND \: 
-      \upsigma_{amount \: > \: 10000} \: (Trans)
-      = \emptyset \\
+      \upsigma_{(cardNum \: < \: 555555555) \: AND \: 
+      (amount \: > \: 10000)} \: (Trans) = \emptyset \\
     \end{IEEEeqnarray*}
   \item 
     \begin{IEEEeqnarray*}{RCl}
