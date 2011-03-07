@@ -1,0 +1,12 @@
+-- Do not use the command CREATE SCHEMA or SET SEARCH_PATH.
+-- Either of these may interfere with autotesting and cause
+-- your query to be given zero for correctness.
+
+CREATE TABLE query1 (
+	billingNum INT NOT NULL,
+	lastName TEXT NOT NULL,
+	firstName TEXT NOT NULL,
+	cID TEXT NOT NULL,
+	address TEXT NOT NULL,
+	numPatientsSent INT NOT NULL
+);
