@@ -20,11 +20,11 @@ if __name__ == '__main__':
         line = i.next()
       bio = bio.rstrip()
 
-      users.append('INSERT INTO profile VALUES (\'{0}\', \'{1}\', \'{2}\', \'{3}\', \'{4}\')'.format(username, name, location, url, bio))
+      users.append('INSERT INTO profile VALUES (\'{0}\', \'{1}\', \'{2}\', \'{3}\', \'{4}\');'.format(username, name, location, url, bio))
 
       line = i.next()
       while line.strip() != 'END':
-        follows.append('INSERT INTO follows VALUES (\'{0}\', \'{1}\')'.format(username, line.rstrip()))
+        follows.append('INSERT INTO follows VALUES (\'{0}\', \'{1}\');'.format(username, line.rstrip()))
         line = i.next()
   except StopIteration:
     pass
@@ -50,6 +50,7 @@ CREATE TABLE followers (
   PRIMARY KEY (username,followers),
   FOREIGN KEY (username) REFERENCES profile(username)
 );
+
 '''
 
   for user in users:
