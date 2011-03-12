@@ -14,8 +14,9 @@ CREATE TABLE query3 (
 );
 
 -- Drop all previously generated views
-DROP VIEW IF EXISTS load;
-DROP VIEW IF EXISTS maxLoad;
+DROP VIEW IF EXISTS leastMax CASCADE;
+DROP VIEW IF EXISTS maxLoad CASCADE;
+DROP VIEW IF EXISTS load CASCADE;
 
 -- Generate number of tests done every day by each technician
 CREATE VIEW load AS (
@@ -26,11 +27,17 @@ CREATE VIEW load AS (
 
 -- Select max workload for each technician
 CREATE VIEW maxLoad AS (
-  SELECT tID, MAX(exams)
-  FROM Exam
+  SELECT tID, MAX(exams) AS exams
+  FROM load
   GROUP BY tID
 );
 
 -- Select technician(s) with least max load
 CREATE VIEW leastMax AS (
-  SELECT tID
+  SELECT tID, exams
+  FROM maxLoad
+  WHERE exams = (
+    SELECT MIN(exams)
+    FROM maxLoad
+  )
+);
