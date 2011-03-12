@@ -2,6 +2,8 @@
 -- Either of these may interfere with autotesting and cause
 -- your query to be given zero for correctness.
 
+DROP TABLE IF EXISTS query3 CASCADE;
+
 CREATE TABLE query3 (
 	ID INT NOT NULL,
 	lastName TEXT NOT NULL,
@@ -10,3 +12,25 @@ CREATE TABLE query3 (
 	minExams INT NOT NULL,
 	avgExams FLOAT NOT NULL
 );
+
+-- Drop all previously generated views
+DROP VIEW IF EXISTS load;
+DROP VIEW IF EXISTS maxLoad;
+
+-- Generate number of tests done every day by each technician
+CREATE VIEW load AS (
+  SELECT tID, EXTRACT(DAY from schedule) AS day, COUNT(eID) AS exams
+  FROM Exam
+  GROUP BY tID, day
+);
+
+-- Select max workload for each technician
+CREATE VIEW maxLoad AS (
+  SELECT tID, MAX(exams)
+  FROM Exam
+  GROUP BY tID
+);
+
+-- Select technician(s) with least max load
+CREATE VIEW leastMax AS (
+  SELECT tID
