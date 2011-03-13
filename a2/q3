@@ -34,10 +34,16 @@ CREATE VIEW maxLoad AS (
 
 -- Select technician(s) with least max load
 CREATE VIEW leastMax AS (
-  SELECT tID, exams
+  SELECT tID
   FROM maxLoad
   WHERE exams = (
+    -- Select the least load from maxLoad
     SELECT MIN(exams)
     FROM maxLoad
   )
 );
+
+-- Select all the other details for that technician
+SELECT tID, lastName, firstName, MAX(exams), MIN(exams), AVG(exams)
+FROM technician INNER JOIN (leastMax INNER JOIN load)
+GROUP tID, day;
