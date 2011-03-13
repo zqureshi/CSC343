@@ -44,6 +44,6 @@ CREATE VIEW leastMax AS (
 );
 
 -- Select all the other details for that technician
-SELECT tID, lastName, firstName, MAX(exams), MIN(exams), AVG(exams)
-FROM technician INNER JOIN (leastMax INNER JOIN load)
-GROUP tID, day
+SELECT tID, MAX(exams), MIN(exams), AVG(exams)
+FROM technician NATURAL JOIN (leastMax NATURAL JOIN load)
+GROUP BY tID;
