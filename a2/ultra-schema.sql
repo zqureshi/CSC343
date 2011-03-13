@@ -53,7 +53,11 @@ CREATE TABLE Exam (
 	tID INT NOT NULL,
 	dID INT NOT NULL,
 	schedule TIMESTAMP NOT NULL,
-	PRIMARY KEY (eID)
+	PRIMARY KEY (eID),
+	FOREIGN KEY (pID) REFERENCES Patient(OHIP),
+	FOREIGN KEY (cID) REFERENCES Clinic(cID),
+	FOREIGN KEY (tID) REFERENCES Technician(ID),
+	FOREIGN KEY (dID) REFERENCES Doctor(billingNum)	
 );
 
 -- A measurement that may be taken during a medical exam, with
@@ -99,5 +103,8 @@ CREATE TABLE Birth (
 	birthday DATE NOT NULL,
 	weight FLOAT NOT NULL,
 	attending INT,
-	PRIMARY KEY (mother, prStart)
+	PRIMARY KEY (mother, prStart),
+	FOREIGN KEY (mother) REFERENCES Patient(OHIP),
+	FOREIGN KEY (mother, prStart) REFERENCES Pregnancy (pID, start),
+	FOREIGN KEY (attending) REFERENCES Doctor(billingNum)
 );
