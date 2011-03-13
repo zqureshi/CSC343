@@ -45,13 +45,13 @@ CREATE VIEW leastMax AS (
 
 -- Select all the other details for that technician
 CREATE VIEW techLoads AS (
-  SELECT tID, MAX(exams) AS maxExams, MIN(exams) AS minExams, 
+  SELECT tID AS ID, MAX(exams) AS maxExams, MIN(exams) AS minExams, 
   AVG(exams) AS avgExams
   FROM leastMax NATURAL JOIN load
-  GROUP BY tID;
+  GROUP BY tID
 );
 
-INSET INTO query3 (
-  SELECT tID, lastName, firstname, maxExams, minExams, avgExams
+INSERT INTO query3 (
+  SELECT ID, lastName, firstname, maxExams, minExams, avgExams
   FROM techLoads NATURAL JOIN technician
 );
