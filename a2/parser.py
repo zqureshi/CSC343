@@ -1,5 +1,12 @@
 #!/usr/bin/env python
 
+# CSC 343 Winter 2011 - Assignment 2
+#
+# Zeeshan Qureshi <g0zee@cdf.toronto.edu>
+# Jaideep Bajwa <c1bajwaj@cdf.toronto.edu>
+#
+# NOTE: This script needs Python 2.6+ to run
+
 if __name__ == '__main__':
   twitter = [x.replace("'", "''").rstrip() for x in open('twitter-scrape.txt')]
   users = []
