@@ -2,9 +2,56 @@
 -- Either of these may interfere with autotesting and cause
 -- your query to be given zero for correctness.
 
+DROP TABLE IF EXISTS query5 CASCADE;
+
 CREATE TABLE query5 (
 	cID TEXT NOT NULL,
 	tID INT NOT NULL,
 	mID INT NOT NULL,
 	maxDiff FLOAT NOT NULL
+);
+
+-- DROP all previously generated views
+DROP VIEW IF EXISTS bigError CASCADE; 
+DROP VIEW IF EXISTS avgResult, resultRange CASCADE; 
+DROP VIEW IF EXISTS maxResult, minResult CASCADE; 
+
+-- Select Minimum value for each (exam, measurement)
+CREATE VIEW minResult AS (
+  SELECT eID, mID, MIN(VALUE) AS minVal
+  FROM Result
+  GROUP BY eID, mID
+);
+
+-- Select Maximum value for each (exam, measurement)
+CREATE VIEW maxResult AS (
+  SELECT eID, mID, MAX(VALUE) AS maxVal
+  FROM Result
+  GROUP BY eID, mID
+);
+
+-- Generate range of result (Max - Min) for each (exam, measurement)
+CREATE VIEW resultRange AS (
+  SELECT eID, mID, (maxVal - minVal) AS maxDiff
+  FROM minResult NATURAL JOIN maxResult
+);
+
+-- Generate average results for each measurement type
+CREATE VIEW avgResult AS (
+  SELECT mID, AVG(maxDiff) AS avgVal
+  FROM resultRange
+  GROUP BY mID
+);
+
+-- Select only those results that have error greater than average
+CREATE VIEW bigError AS (
+  SELECT eID, mID, maxDiff
+  FROM resultRange NATURAL JOIN avgResult
+  WHERE maxDiff > avgVal
+);
+
+-- Join and populate results
+INSERT INTO query5 (
+  SELECT cID, tID, mID, maxDiff
+  FROM Exam NATURAL JOIN bigError
 );
