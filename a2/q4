@@ -2,9 +2,32 @@
 -- Either of these may interfere with autotesting and cause
 -- your query to be given zero for correctness.
 
+DROP TABLE IF EXISTS query4 CASCADE;
+
 CREATE TABLE query4 (
 	OHIP INT NOT NULL,
 	lastName TEXT NOT NULL,
 	firstName TEXT NOT NULL,
 	start DATE NOT NULL
+);
+
+-- Drop all previously generated views
+DROP VIEW IF EXISTS firstTen, nonRecorded CASCADE;
+
+-- Get all birth that happened within first 10 months 
+CREATE VIEW firstTen AS (
+  SELECT mother AS pID, prStart AS start
+  FROM Birth
+  WHERE EXTRACT(MONTH FROM AGE(birthday, prStart)) <= 10
+);
+
+CREATE VIEW nonRecorded(OHIP, start) AS (
+  (SELECT * FROM Pregnancy)
+  EXCEPT
+  (SELECT * FROM firstTen)
+);
+
+INSERT INTO query4 (
+  SELECT OHIP, lastName, firstName, start
+  FROM nonRecorded NATURAL JOIN Patient
 );
