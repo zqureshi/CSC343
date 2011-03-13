@@ -1,4 +1,4 @@
--- 1
+------------------------------------- query1------------------------------------
 DROP VIEW IF EXISTS A1 CASCADE;
 DROP VIEW IF EXISTS A1 , A2 CASCADE;
 DROP TABLE IF EXISTS query1 CASCADE;
@@ -30,9 +30,9 @@ INSERT INTO query1(
     (SELECT * FROM A1)
 );
 
+------------------------------------- query2------------------------------------
 
 
--- 2
 DROP VIEW IF EXISTS A1 , A2, R CASCADE;
 DROP TABLE IF EXISTS query2 CASCADE;
 
@@ -74,7 +74,9 @@ INSERT INTO query2(
     WHERE use=username
 );
 
--- 3
+------------------------------------- query3------------------------------------
+
+
 DROP VIEW IF EXISTS A3 , A4, R1 CASCADE;
 DROP TABLE IF EXISTS query3 CASCADE;
 
@@ -108,7 +110,9 @@ INSERT INTO query3(
     ORDER BY pop DESC
 );
 
--- 4
+------------------------------------- query4------------------------------------
+
+
 DROP TABLE IF EXISTS query4 CASCADE;
 
 CREATE TABLE query4(

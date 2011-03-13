@@ -1,0 +1,47 @@
+-- Do not use the command CREATE SCHEMA or SET SEARCH_PATH.
+-- Either of these may interfere with autotesting and cause
+-- your query to be given zero for correctness.
+
+DROP TABLE IF EXISTS query2 CASCADE;
+
+CREATE TABLE query2 (
+  year INT NOT NULL,
+  age TEXT NOT NULL,
+  numBirths INT NOT NULL,
+  avgBirthWeight FLOAT
+);
+
+-- Drop all previously generated views
+DROP VIEW IF EXISTS Mothers CASCADE;
+
+-- Create view listing all babies and their mothers
+CREATE VIEW Mothers AS (
+  SELECT EXTRACT(YEAR FROM birthday) AS year,
+         EXTRACT(YEAR FROM AGE(birthday, dob)) AS age, weight
+  FROM Birth, Patient
+  WHERE Birth.mother = Patient.OHIP
+);
+
+-- Insert data for all mothers with age < 30
+INSERT INTO query2 (
+  SELECT year, '<30' AS age, COUNT(*) AS numBirths,
+         AVG(weight) AS avgBirthWeight
+  FROM (SELECT * FROM Mothers WHERE age < 30) As M
+  GROUP BY year
+);
+
+-- Insert data for all mothers with age < 30
+INSERT INTO query2 (
+  SELECT year, '30-35' AS age, COUNT(*) AS numBirths,
+         AVG(weight) AS avgBirthWeight
+  FROM (SELECT * FROM Mothers WHERE age >= 30 AND age <= 35) As M
+  GROUP BY year
+);
+
+-- Insert data for all mothers with age > 35
+INSERT INTO query2 (
+  SELECT year, '>35' AS age, COUNT(*) AS numBirths,
+         AVG(weight) AS avgBirthWeight
+  FROM (SELECT * FROM Mothers WHERE age > 35) As M
+  GROUP BY year
+);
