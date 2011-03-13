@@ -5,12 +5,12 @@
 DROP TABLE IF EXISTS query3 CASCADE;
 
 CREATE TABLE query3 (
-	ID INT NOT NULL,
-	lastName TEXT NOT NULL,
-	firstName TEXT NOT NULL,
-	maxExams INT NOT NULL,
-	minExams INT NOT NULL,
-	avgExams FLOAT NOT NULL
+  ID INT NOT NULL,
+  lastName TEXT NOT NULL,
+  firstName TEXT NOT NULL,
+  maxExams INT NOT NULL,
+  minExams INT NOT NULL,
+  avgExams FLOAT NOT NULL
 );
 
 -- Drop all previously generated views
@@ -44,6 +44,14 @@ CREATE VIEW leastMax AS (
 );
 
 -- Select all the other details for that technician
-SELECT tID, lastName, firstName, MAX(exams), MIN(exams), AVG(exams)
-FROM technician INNER JOIN (leastMax INNER JOIN load)
-GROUP tID, day;
+CREATE VIEW techLoads AS (
+  SELECT tID, MAX(exams) AS maxExams, MIN(exams) AS minExams, 
+  AVG(exams) AS avgExams
+  FROM leastMax NATURAL JOIN load
+  GROUP BY tID;
+);
+
+INSET INTO query3 (
+  SELECT tID, lastName, firstname, maxExams, minExams, avgExams
+  FROM techLoads NATURAL JOIN technician
+);
