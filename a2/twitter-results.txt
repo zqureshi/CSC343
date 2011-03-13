@@ -1,0 +1,2194 @@
+------------------------------------------------query1-----------------------------------------------
+
+        a        |        b        
+-----------------+-----------------
+ randizuckerberg | mattcohler
+ jack            | pschiller
+ btaylor         | karaswisher
+ TEDchris        | aplusk
+ karaswisher     | joshk
+ markpinc        | kevinrose
+ lizblankenship  | irvingreid
+ pkedrosky       | longreads
+ mcuban          | sacca
+ drscan          | flaps
+ erickschonfeld  | adamdangelo
+ bhorowitz       | Oprah
+ pud             | iamwill
+ naval           | biz
+ Caterina        | biz
+ jeff            | ycombinator
+ sarahcuda       | BradStone
+ peterpham       | adamdangelo
+ pchelinn        | cssu
+ shawnfanning    | joshk
+ davidhornik     | tristanwalker
+ cshirky         | longreads
+ bijan           | foundersatwork
+ karaswisher     | mcuban
+ lessig          | zittrain
+ karaswisher     | rabois
+ VevWong         | wolever
+ jeff            | m2jr
+ adamlashinsky   | adambain
+ KatieS          | finkd
+ rabois          | Caterina
+ eladgil         | aplusk
+ mmccue          | bgarlinghouse
+ flaps           | yorchopolis
+ Oprah           | aplusk
+ dickc           | mmccue
+ shawnfanning    | SteveCase
+ dickc           | btaylor
+ mlevchin        | joshu
+ Caterina        | finkd
+ drewhouston     | mattcohler
+ btaylor         | ycombinator
+ BradStone       | mmccue
+ Harjeet         | eladgil
+ ericschmidt     | algore
+ JasonHirschhorn | btaylor
+ kevin           | RonConwayFacts
+ pierre          | QueenRania
+ satishd         | ccheever
+ fredwilson      | HowardStern
+ om              | alexia
+ vkhosla         | jack
+ mkapor          | satishd
+ m2jr            | iamwill
+ gvwilson        | bwinton
+ bijan           | dickc
+ satishd         | fredwilson
+ paulg           | quixotic
+ spolsky         | Caterina
+ JVascellaro     | ccheever
+ markpinc        | ariannahuff
+ peterfenton     | adamlashinsky
+ ev              | kn0thing
+ nickbilton      | McAndrew
+ sacca           | msuster
+ zephoria        | amac
+ om              | ccheever
+ hblodget        | JVascellaro
+ btaylor         | mattcutts
+ karaswisher     | Joi
+ ariannahuff     | Oprah
+ shazow          | marissamayer
+ Joseph_Y        | gvwilson
+ marissamayer    | JVascellaro
+ mkapor          | Gladwell
+ bgurley         | dannyrimer
+ mkapor          | erickschonfeld
+ karenreid       | jobias
+ katiecouric     | biz
+ satishd         | kevinrose
+ shawnfanning    | Joi
+ biz             | stop
+ mcuban          | mkapor
+ johndoerr       | davemorin
+ naval           | msuster
+ Harjeet         | andrewmason
+ adamlashinsky   | joshu
+ JVascellaro     | ariannahuff
+ garrytan        | lessig
+ rtulk           | pgries
+ McAndrew        | SteveMartinToGo
+ tristanwalker   | kevin
+ erickschonfeld  | shervin
+ shazow          | notch
+ karenreid       | wolever
+ bgarlinghouse   | SteveCase
+ TEDchris        | BradStone
+ jddimarco       | lhawthorn
+ eladgil         | foundersatwork
+ karaswisher     | erhanerdogan
+ kevinrose       | bgurley
+ peterpham       | shervin
+ joshk           | stevebmicrosoft
+ pierre          | Dropbox
+ fredwilson      | SteveMartinToGo
+ spolsky         | mlevchin
+ karaswisher     | elatable
+ ericries        | jeff
+ marissamayer    | pierre
+ parislemon      | pschiller
+ fosslc          | mkapor
+ lessig          | Caterina
+ marissamayer    | edyson
+ karaswisher     | jeff
+ lessig          | pierre
+ drewhouston     | dickc
+ johndoerr       | ev
+ hblodget        | KatieS
+ marissamayer    | Caterina
+ satishd         | davidhornik
+ asenkut         | TechCrunch
+ davidhornik     | erhanerdogan
+ ericschmidt     | mattcutts
+ RonConway       | iamwill
+ MarcBodnick     | brianp
+ SteveCase       | davemorin
+ marissamayer    | Scobleizer
+ mattcohler      | quixotic
+ gvwilson        | adamgoucher
+ rabois          | peterpham
+ karenreid       | yorchopolis
+ cdixon          | dannyrimer
+ joelcrocker     | finkd
+ btaylor         | SarahKSilverman
+ MarcBodnick     | spolsky
+ mattcohler      | cshirky
+ timoreilly      | AlecJRoss
+ marissamayer    | KatieS
+ paulg           | andrewmason
+ pkedrosky       | hblodget
+ peterpham       | jhuber
+ hblodget        | Caterina
+ BillGates       | karaswisher
+ asenkut         | amac
+ Bill_Gross      | andrewmason
+ irvingreid      | asmartbear
+ jonpipitone     | andrewtrusty
+ pchelinn        | codinghorror
+ nikesharora     | JBoorstin
+ tristanwalker   | MarcBodnick
+ adamlashinsky   | msuster
+ johndoerr       | sacca
+ fredwilson      | RonConwayFacts
+ m2jr            | tristanwalker
+ bgurley         | longreads
+ johndoerr       | Scobleizer
+ eladgil         | paulg
+ zuzelvp         | bwinton
+ stevenjayl      | SteveMartinToGo
+ eladgil         | waltmossberg
+ ericschmidt     | NickKristof
+ johndoerr       | johnbattelle
+ markpinc        | davemcclure
+ drewhouston     | cshirky
+ jddimarco       | neilernst
+ bgurley         | BillGates
+ randizuckerberg | gideonyu
+ gvanrossum      | Scobleizer
+ mattcohler      | gideonyu
+ adamdangelo     | ericschmidt
+ irvingreid      | torontoist
+ stop            | adambain
+ hblodget        | katiecouric
+ quixotic        | markoff
+ markpinc        | ginab
+ ccheever        | RonConwayFacts
+ alexia          | instagram
+ jrrmzz          | yorchopolis
+ bijan           | Harjeet
+ erickschonfeld  | ariannahuff
+ bijan           | paulg
+ Harjeet         | pkedrosky
+ Harjeet         | quixotic
+ flaps           | wolever
+ elatable        | naval
+ bgarlinghouse   | jeff
+ andrewmason     | dickc
+ bijan           | sarahcuda
+ RonConwayFacts  | mmccue
+ adamlashinsky   | biz
+ JBoorstin       | ariannahuff
+ gvwilson        | lmds
+ timoreilly      | katiecouric
+ jharjono        | jaygoldman
+ satishd         | adamdangelo
+ MarcBodnick     | pschiller
+ jonpipitone     | neilernst
+ markoff         | Caterina
+ joelcrocker     | shawnkono
+ lizblankenship  | mike_conley
+ peterfenton     | adambain
+ om              | carr2n
+ rtulk           | bwinton
+ shawnfanning    | Chad_Hurley
+ mmccue          | dens
+ andrewtrusty    | gvwilson
+ vkhosla         | algore
+ edyson          | om
+ asenkut         | rabois
+ adamlashinsky   | nikesharora
+ eladgil         | drewhouston
+ amac            | edyson
+ satishd         | davemcclure
+ erickschonfeld  | ccheever
+ markpinc        | shervin
+ BradStone       | hblodget
+ RonConway       | brianp
+ peterpham       | ccheever
+ karaswisher     | Chad_Hurley
+ zephoria        | nickbilton
+ lizblankenship  | jeffbalogh
+ nikesharora     | om
+ Benchmark       | adamdangelo
+ stevenjayl      | paultoo
+ joshk           | JVascellaro
+ parislemon      | RonConwayFacts
+ btaylor         | KatieS
+ QueenRania      | nytimes
+ ev              | carr2n
+ vkhosla         | johnbattelle
+ McAndrew        | jeff
+ kn0thing        | garrytan
+ joshu           | stop
+ jharjono        | Joseph_Y
+ mike_conley     | asmartbear
+ summersoulTO    | HeatherLeson
+ bingfish        | TEDchris
+ andrewtrusty    | wolever
+ vkhosla         | Caterina
+ ariannahuff     | nytimes
+ joelcrocker     | flaps
+ markoff         | McAndrew
+ elatable        | McAndrew
+ mike_conley     | torontoist
+ kevinrose       | pschiller
+ alexia          | amac
+ sarahcuda       | johndoerr
+ rabois          | parislemon
+ elatable        | bhorowitz
+ parislemon      | bgurley
+ JVascellaro     | JBoorstin
+ drewhouston     | BillGates
+ naval           | adamdangelo
+ naval           | davemcclure
+ peterpham       | peterfenton
+ rabois          | jack
+ shervin         | HowardStern
+ stevenjayl      | amac
+ lessig          | mattcutts
+ bingfish        | waltmossberg
+ bgurley         | dickc
+ QueenRania      | Chad_Hurley
+ johnbattelle    | ginab
+ MarcBodnick     | paultoo
+ paulg           | timoreilly
+ gvwilson        | shazow
+ summersoulTO    | gvwilson
+ bgarlinghouse   | geoff_yang
+ edyson          | davemcclure
+ pud             | cdixon
+ randizuckerberg | BillGates
+ jeff            | KatieS
+ paultoo         | timoreilly
+ satishd         | om
+ pgries          | mike_conley
+ edyson          | ginab
+ mmccue          | katiecouric
+ sarahcuda       | timoreilly
+ rtulk           | plagal
+ avibryant       | RonConwayFacts
+ joshu           | nicknotned
+ fredwilson      | nickbilton
+ karaswisher     | cdixon
+ naval           | asenkut
+ gvanrossum      | algore
+ pschiller       | algore
+ karenreid       | isaacezer
+ pud             | RonConwayFacts
+ quixotic        | TEDchris
+ asenkut         | Bill_Gross
+ rabois          | MarcBodnick
+ kevinrose       | rabois
+ erickschonfeld  | nicknotned
+ btaylor         | mlevchin
+ johndoerr       | algore
+ Borthwick       | paulg
+ marissamayer    | McAndrew
+ shervin         | ioerror
+ flaps           | Joi
+ JVascellaro     | adambain
+ cdixon          | Harjeet
+ kevinrose       | SteveCase
+ zuzelvp         | karenreid
+ quixotic        | waltmossberg
+ mmccue          | AlecJRoss
+ johndoerr       | bhorowitz
+ ccheever        | tristanwalker
+ stevenjayl      | lessig
+ ginab           | cdixon
+ lessig          | zephoria
+ JVascellaro     | satishd
+ McAndrew        | Chad_Hurley
+ jobias          | BillGates
+ joelcrocker     | ariannahuff
+ zuzelvp         | plagal
+ ev              | adamdangelo
+ randizuckerberg | btaylor
+ kevin           | TechCrunch
+ dianelynnhorton | irvingreid
+ mlevchin        | fredwilson
+ gvanrossum      | lhawthorn
+ parislemon      | JasonHirschhorn
+ jack            | RonConwayFacts
+ marissamayer    | dens
+ marissamayer    | parislemon
+ johndoerr       | m2jr
+ ccheever        | brianp
+ dannyrimer      | bhorowitz
+ adamlashinsky   | davidhornik
+ RonConwayFacts  | andrewmason
+ geoff_yang      | dickc
+ johndoerr       | jack
+ jharjono        | Dropbox
+ timoreilly      | ericries
+ marissamayer    | zephoria
+ quixotic        | BradStone
+ karenreid       | fosslc
+ garrytan        | instagram
+ foundersatwork  | quixotic
+ dianelynnhorton | jharjono
+ jddimarco       | adinscannell
+ naval           | jhuber
+ om              | kn0thing
+ SteveCase       | McAndrew
+ mkapor          | carr2n
+ lessig          | algore
+ pud             | SteveMartinToGo
+ Borthwick       | quixotic
+ stop            | fredwilson
+ RonConwayFacts  | Harjeet
+ markpinc        | biz
+ BillGates       | KatieS
+ karenreid       | gvwilson
+ JVascellaro     | stop
+ markpinc        | finkd
+ ariannahuff     | jimmyfallon
+ bhorowitz       | SteveCase
+ RonConwayFacts  | drewhouston
+ peterpham       | joshu
+ waltmossberg    | BillGates
+ om              | stop
+ QueenRania      | TechCrunch
+ marissamayer    | ycombinator
+ stevenjayl      | Chad_Hurley
+ bijan           | codinghorror
+ johndoerr       | zephoria
+ drewhouston     | markoff
+ bwinton         | Dropbox
+ fredwilson      | lessig
+ mike_conley     | jrrmzz
+ randizuckerberg | hblodget
+ mkapor          | asenkut
+ erickschonfeld  | Gladwell
+ markpinc        | peterfenton
+ davidhornik     | hotdogsladies
+ stevenjayl      | ericschmidt
+ Joseph_Y        | wolever
+ quixotic        | cshirky
+ davidhornik     | cdixon
+ markoff         | NickKristof
+ pud             | instagram
+ marissamayer    | jack
+ edyson          | ariannahuff
+ gideonyu        | BradStone
+ cdixon          | foundersatwork
+ Benchmark       | peterfenton
+ adambain        | nikesharora
+ zephoria        | ioerror
+ hblodget        | mattcutts
+ karaswisher     | instagram
+ fredwilson      | marissamayer
+ mlevchin        | asenkut
+ jddimarco       | lizblankenship
+ nikesharora     | ariannahuff
+ lance_          | gvanrossum
+ ericries        | bgurley
+ amac            | jack
+ kevin           | nickbilton
+ davidhornik     | bgurley
+ pud             | HowardStern
+ johndoerr       | RonConway
+ jddimarco       | mkapor
+ ericschmidt     | edyson
+ bhorowitz       | TechCrunch
+ btaylor         | Benchmark
+ adamlashinsky   | davemcclure
+ erhanerdogan    | pud
+ rtulk           | neilernst
+ shawnkono       | torontoist
+ mmccue          | pierre
+ karaswisher     | randizuckerberg
+ lance_          | cssu
+ fredwilson      | erhanerdogan
+ bgurley         | TEDchris
+ garrytan        | bijan
+ joelcrocker     | torontoist
+ karaswisher     | SteveMartinToGo
+ markoff         | jack
+ dickc           | bingfish
+ pgries          | irvingreid
+ lhawthorn       | amac
+ ccheever        | elatable
+ mike_conley     | flaps
+ parislemon      | instagram
+ nickbilton      | zittrain
+ gvwilson        | lhawthorn
+ naval           | fredwilson
+ gvanrossum      | mattcutts
+ BradStone       | dickc
+ adamdangelo     | Bill_Gross
+ JBoorstin       | markpinc
+ m2jr            | Bill_Gross
+ elatable        | ycombinator
+ fredwilson      | amac
+ karaswisher     | peterfenton
+ yorchopolis     | adinscannell
+ jharjono        | HeatherLeson
+ paultoo         | mattcutts
+ hblodget        | vkhosla
+ stevenjayl      | carr2n
+ gideonyu        | peterpham
+ spolsky         | dannyrimer
+ markoff         | BillGates
+ davidhornik     | adambain
+ edyson          | SteveCase
+ stop            | marissamayer
+ JBoorstin       | bgurley
+ phyllers        | shazow
+ randizuckerberg | dens
+ lessig          | timoreilly
+ Chad_Hurley     | andrewmason
+ geoff_yang      | davemorin
+ mike_conley     | notch
+ adamlashinsky   | Chad_Hurley
+ karaswisher     | finkd
+ peterpham       | RonConwayFacts
+ MarcBodnick     | erickschonfeld
+ pgries          | yorchopolis
+ asenkut         | satishd
+ markpinc        | Oprah
+ Joi             | vkhosla
+ davidhornik     | om
+ Bill_Gross      | RonConway
+ naval           | joshk
+ TEDchris        | karaswisher
+ mkapor          | ericschmidt
+ ariannahuff     | QueenRania
+ Bill_Gross      | NickKristof
+ eladgil         | jack
+ Borthwick       | JVascellaro
+ nikesharora     | mcuban
+ sarahcuda       | RonConway
+ stop            | TechCrunch
+ timoreilly      | BillGates
+ McAndrew        | jhuber
+ kevin           | adamdangelo
+ cjmuise         | plagal
+ irvingreid      | swcarpentry
+ kn0thing        | jimmyfallon
+ markoff         | mmccue
+ mmccue          | gideonyu
+ pchelinn        | hyfen
+ quixotic        | peterpham
+ tristanwalker   | sarahcuda
+ edyson          | elatable
+ katiecouric     | SteveCase
+ sacca           | Joi
+ jeff            | Borthwick
+ jharjono        | TechCrunch
+ rabois          | hblodget
+ bingfish        | davemorin
+ elatable        | vkhosla
+ aran_donohue    | wolever
+ vkhosla         | gideonyu
+ shawnkono       | isaacezer
+ peterfenton     | iamwill
+ Joseph_Y        | jeffbalogh
+ mlevchin        | Chad_Hurley
+ marissamayer    | BillGates
+ JasonHirschhorn | Benchmark
+ mlevchin        | ericschmidt
+ markpinc        | randizuckerberg
+ adambain        | Oprah
+ btaylor         | quixotic
+ btaylor         | pkedrosky
+ davemorin       | SteveMartinToGo
+ johndoerr       | BillGates
+ paulg           | avibryant
+ gvwilson        | gvanrossum
+ peterpham       | JasonHirschhorn
+ peterfenton     | Joi
+ jeff            | dickc
+ peterpham       | cdixon
+ bwinton         | notch
+ jharjono        | marissamayer
+ sarahcuda       | m2jr
+ adambain        | HowardStern
+ johnbattelle    | pschiller
+ dianelynnhorton | wolever
+ pchelinn        | bwinton
+ karaswisher     | nicknotned
+ eladgil         | RonConway
+ jack            | stop
+ mmccue          | Borthwick
+ bgurley         | sacca
+ vkhosla         | quixotic
+ biz             | rabois
+ bijan           | parislemon
+ bgurley         | Scobleizer
+ vkhosla         | cshirky
+ JVascellaro     | ioerror
+ gvanrossum      | BillGates
+ nikesharora     | marissamayer
+ mattcohler      | NickKristof
+ McAndrew        | ginab
+ gideonyu        | Caterina
+ joshu           | Bill_Gross
+ jeff            | waltmossberg
+ JBoorstin       | Bill_Gross
+ asmartbear      | msuster
+ JasonHirschhorn | katiecouric
+ elatable        | johndoerr
+ RonConwayFacts  | JVascellaro
+ randizuckerberg | ericries
+ johndoerr       | dannyrimer
+ QueenRania      | shervin
+ avibryant       | adambain
+ instagram       | jack
+ joelcrocker     | gvwilson
+ vkhosla         | TEDchris
+ peterpham       | HowardStern
+ dianelynnhorton | yorchopolis
+ karaswisher     | joshu
+ gvwilson        | remarkk
+ erickschonfeld  | Bill_Gross
+ adamlashinsky   | amac
+ aplusk          | davemorin
+ mlevchin        | SteveCase
+ erickschonfeld  | HowardStern
+ peterpham       | Bill_Gross
+ cjmuise         | andrewtrusty
+ adinscannell    | nickbilton
+ stevenjayl      | fredwilson
+ adamlashinsky   | elatable
+ alexia          | ccheever
+ satishd         | cdixon
+ btaylor         | paulg
+ adamgoucher     | wolever
+ quixotic        | zittrain
+ m2jr            | satishd
+ adamlashinsky   | pschiller
+ vkhosla         | waltmossberg
+ JBoorstin       | Oprah
+ bijan           | bhorowitz
+ kevin           | kevinrose
+ BillGates       | aplusk
+ davemorin       | RonConwayFacts
+ bgarlinghouse   | adambain
+ Caterina        | jeff
+ ccheever        | adamdangelo
+ asenkut         | msuster
+ bingfish        | ev
+ aran_donohue    | yorchopolis
+ mattcohler      | MarcBodnick
+ paultoo         | algore
+ ericries        | msuster
+ btaylor         | waltmossberg
+ Borthwick       | stevebmicrosoft
+ dannyrimer      | mmccue
+ fosslc          | codinghorror
+ btaylor         | andrewmason
+ mmccue          | andrewmason
+ quixotic        | johnbattelle
+ cshirky         | sacca
+ adamlashinsky   | lessig
+ satishd         | bgurley
+ m2jr            | erickschonfeld
+ karaswisher     | markpinc
+ randizuckerberg | pud
+ quixotic        | edyson
+ andrewtrusty    | mike_conley
+ McAndrew        | shervin
+ zuzelvp         | rtulk
+ erickschonfeld  | SteveMartinToGo
+ mattcohler      | jack
+ JBoorstin       | randizuckerberg
+ pchelinn        | adamgoucher
+ RonConway       | biz
+ johndoerr       | timoreilly
+ codinghorror    | cshirky
+ JBoorstin       | SteveMartinToGo
+ MarcBodnick     | msuster
+ adamlashinsky   | SteveCase
+ hblodget        | johndoerr
+ mlevchin        | iamwill
+ spolsky         | BillGates
+ jharjono        | nytimes
+ drewhouston     | pud
+ cjmuise         | neilernst
+ bijan           | kevin
+ Benchmark       | bgurley
+ mattcohler      | zephoria
+ mmccue          | drewhouston
+ vkhosla         | mattcohler
+ om              | geoff_yang
+ ericschmidt     | aplusk
+ adamlashinsky   | mcuban
+ btaylor         | mattcohler
+ mattcohler      | karaswisher
+ gideonyu        | mkapor
+ adamlashinsky   | rabois
+ BradStone       | mlevchin
+ nikesharora     | nytimes
+ shawnkono       | iamwill
+ pgries          | wolever
+ jeff            | andrewmason
+ davidhornik     | peterfenton
+ aran_donohue    | hotdogsladies
+ bwinton         | jonpipitone
+ bingfish        | mkapor
+ irvingreid      | isaacezer
+ marissamayer    | TEDchris
+ waltmossberg    | mkapor
+ UCOSP           | fosslc
+ VevWong         | jaygoldman
+ ericschmidt     | BillGates
+ Joi             | paulg
+ satishd         | tristanwalker
+ karaswisher     | davemcclure
+ adamlashinsky   | randizuckerberg
+ tristanwalker   | andrewrsorkin
+ fredwilson      | erickschonfeld
+ LilaFontes      | hotdogsladies
+ pgries          | gvwilson
+ mlevchin        | Bill_Gross
+ peterfenton     | RonConwayFacts
+ alexia          | adamlashinsky
+ phyllers        | bwinton
+ dannyrimer      | dickc
+ johndoerr       | waltmossberg
+ dens            | om
+ gvanrossum      | paulg
+ lizblankenship  | wolever
+ adambain        | nytimes
+ fredwilson      | Gladwell
+ bijan           | stevebmicrosoft
+ phyllers        | hyfen
+ stevenjayl      | adamlashinsky
+ zuzelvp         | phyllers
+ biz             | hotdogsladies
+ kevin           | biz
+ JBoorstin       | mcuban
+ Oprah           | ev
+ stevenjayl      | nicknotned
+ mattcutts       | alexia
+ sarahcuda       | zittrain
+ lizblankenship  | jobias
+ Borthwick       | bhorowitz
+ marissamayer    | sarahcuda
+ mattcohler      | davemorin
+ TEDchris        | edyson
+ RonConwayFacts  | RonConway
+ kevin           | stop
+ hblodget        | waltmossberg
+ Borthwick       | McAndrew
+ johndoerr       | TEDchris
+ erickschonfeld  | brianp
+ marissamayer    | paulg
+ peterpham       | mcuban
+ cdixon          | kevin
+ geoff_yang      | dens
+ lessig          | BradStone
+ asenkut         | jhuber
+ JBoorstin       | jimmyfallon
+ peterpham       | amac
+ erickschonfeld  | iamwill
+ BradStone       | dens
+ markpinc        | ericschmidt
+ davidhornik     | jhuber
+ adamlashinsky   | bijan
+ ericries        | kevinrose
+ markpinc        | Chad_Hurley
+ McAndrew        | markpinc
+ spolsky         | cshirky
+ sarahcuda       | KatieS
+ peterpham       | jimmyfallon
+ bgurley         | m2jr
+ karaswisher     | shervin
+ amac            | paulg
+ sarahcuda       | Caterina
+ biz             | RonConwayFacts
+ johndoerr       | mattcohler
+ nickbilton      | longreads
+ TEDchris        | zittrain
+ adamlashinsky   | Bill_Gross
+ bijan           | katiecouric
+ btaylor         | johndoerr
+ joshu           | notch
+ gvanrossum      | drewhouston
+ jhuber          | nikesharora
+ bhorowitz       | markpinc
+ johnbattelle    | geoff_yang
+ satishd         | jeff
+ RonConwayFacts  | bgarlinghouse
+ mkapor          | Bill_Gross
+ waltmossberg    | Scobleizer
+ karenreid       | irvingreid
+ JBoorstin       | marissamayer
+ joelcrocker     | wolever
+ vkhosla         | timoreilly
+ bingfish        | algore
+ nytimes         | andrewrsorkin
+ karaswisher     | asenkut
+ ycombinator     | garrytan
+ JVascellaro     | ericschmidt
+ markoff         | paulg
+ naval           | cdixon
+ fredwilson      | adambain
+ BradStone       | bhorowitz
+ karenreid       | jaygoldman
+ rabois          | Borthwick
+ om              | tristanwalker
+ elatable        | paulg
+ Caterina        | hotdogsladies
+ pud             | ginab
+ ev              | RonConwayFacts
+ adamdangelo     | garrytan
+ longreads       | codinghorror
+ mkapor          | bijan
+ JVascellaro     | tristanwalker
+ paulg           | ev
+ dianelynnhorton | gvwilson
+ spolsky         | paulg
+ btaylor         | vkhosla
+ mmccue          | vkhosla
+ Borthwick       | RonConway
+ peterfenton     | HowardStern
+ adambain        | pschiller
+ biz             | SteveMartinToGo
+ jaygoldman      | pschiller
+ parislemon      | stevenjayl
+ rabois          | eladgil
+ paultoo         | davemorin
+ edyson          | Bill_Gross
+ markpinc        | SteveCase
+ katiecouric     | SteveMartinToGo
+ dickc           | avibryant
+ mkapor          | cdixon
+ karenreid       | jharjono
+ iamwill         | dickc
+ naval           | paultoo
+ johnbattelle    | paultoo
+ bhorowitz       | peterfenton
+ bingfish        | karaswisher
+ markpinc        | lessig
+ amac            | quixotic
+ Bill_Gross      | davemorin
+ mike_conley     | swcarpentry
+ McAndrew        | finkd
+ karenreid       | jeffbalogh
+ mike_conley     | SteveMartinToGo
+ ericries        | davidhornik
+ biz             | instagram
+ markpinc        | mcuban
+ rabois          | paulg
+ bijan           | davemorin
+ KatieS          | HowardStern
+ adamlashinsky   | JasonHirschhorn
+ paultoo         | Benchmark
+ sacca           | HowardStern
+ ev              | SteveMartinToGo
+ davidhornik     | shervin
+ ericschmidt     | markoff
+ dickc           | karaswisher
+ karaswisher     | alexia
+ bingfish        | m2jr
+ cdixon          | shawnfanning
+ JasonHirschhorn | shawnfanning
+ karaswisher     | stevenjayl
+ bingfish        | jack
+ karenreid       | mike_conley
+ aran_donohue    | spolsky
+ nikesharora     | Oprah
+ rabois          | waltmossberg
+ pchelinn        | karenreid
+ gideonyu        | jack
+ bgarlinghouse   | ariannahuff
+ jeff            | vkhosla
+ joshk           | eladgil
+ aran_donohue    | gvwilson
+ lmds            | HeatherLeson
+ marissamayer    | dickc
+ bwinton         | instagram
+ quixotic        | zephoria
+ asmartbear      | davemcclure
+ pgries          | isaacezer
+ peterfenton     | SteveMartinToGo
+ johndoerr       | quixotic
+ msuster         | geoff_yang
+ wolever         | adinscannell
+ JBoorstin       | ericschmidt
+ Harjeet         | mkapor
+ codinghorror    | timoreilly
+ joshu           | ericschmidt
+ asenkut         | garrytan
+ markpinc        | jimmyfallon
+ TEDchris        | pierre
+ mattcohler      | ev
+ flaps           | irvingreid
+ dickc           | RonConway
+ yorchopolis     | algore
+ ginab           | QueenRania
+ cjmuise         | hyfen
+ jddimarco       | cssu
+ geoff_yang      | shawnfanning
+ om              | pschiller
+ VevWong         | mike_conley
+ kevinrose       | erickschonfeld
+ pud             | alexia
+ irvingreid      | spolsky
+ timoreilly      | aplusk
+ Borthwick       | m2jr
+ cjmuise         | bwinton
+ ycombinator     | Dropbox
+ johndoerr       | gideonyu
+ jddimarco       | gvanrossum
+ m2jr            | alexia
+ adamdangelo     | alexia
+ mlevchin        | cdixon
+ mmccue          | andrewrsorkin
+ ev              | HowardStern
+ fredwilson      | nicknotned
+ garrytan        | alexia
+ joshu           | nickbilton
+ sacca           | SteveMartinToGo
+ mattcohler      | Caterina
+ stop            | bijan
+ mkapor          | RonConwayFacts
+ phyllers        | lmds
+ KatieS          | ioerror
+ hblodget        | cshirky
+ Borthwick       | shawnfanning
+ mattcohler      | sacca
+ lmds            | spolsky
+ quixotic        | m2jr
+ garrytan        | stevenjayl
+ quixotic        | jack
+ markpinc        | Joi
+ QueenRania      | biz
+ bgarlinghouse   | kevinrose
+ johndoerr       | dickc
+ Gladwell        | nytimes
+ johndoerr       | BradStone
+ satishd         | rabois
+ jeff            | BillGates
+ bingfish        | jeff
+ pgries          | neilernst
+ alexia          | pkedrosky
+ fosslc          | peterfenton
+ marissamayer    | joshu
+ rtulk           | jaygoldman
+ davemcclure     | dannyrimer
+ jhuber          | bingfish
+ gvwilson        | mike_conley
+ erickschonfeld  | bgarlinghouse
+ joshu           | ycombinator
+ paulg           | cdixon
+ Harjeet         | paultoo
+ aplusk          | marissamayer
+ marissamayer    | Gladwell
+ SarahKSilverman | aplusk
+ joelcrocker     | pgries
+ bgurley         | erhanerdogan
+ dens            | andrewmason
+ amac            | adambain
+ ev              | stevebmicrosoft
+ wolever         | swcarpentry
+ bgurley         | jimmyfallon
+ cjmuise         | wolever
+ joshu           | avibryant
+ cjmuise         | ioerror
+ bgarlinghouse   | hblodget
+ naval           | ev
+ adamlashinsky   | pierre
+ kn0thing        | katiecouric
+ nickbilton      | kevinrose
+ andrewtrusty    | codinghorror
+ mmccue          | adamdangelo
+ bhorowitz       | paulg
+ edyson          | KatieS
+ jharjono        | bwinton
+ ericschmidt     | ariannahuff
+ peterfenton     | johnbattelle
+ asenkut         | BillGates
+ mattcohler      | instagram
+ McAndrew        | paulg
+ Caterina        | johnbattelle
+ quixotic        | Chad_Hurley
+ edyson          | Caterina
+ kevinrose       | Borthwick
+ cjmuise         | jobias
+ ericries        | codinghorror
+ ccheever        | paulg
+ adamlashinsky   | JVascellaro
+ McAndrew        | sarahcuda
+ nikesharora     | sacca
+ joshu           | parislemon
+ geoff_yang      | Chad_Hurley
+ alexia          | BradStone
+ bhorowitz       | waltmossberg
+ satishd         | bhorowitz
+ peterfenton     | KatieS
+ ericries        | longreads
+ spolsky         | kn0thing
+ karenreid       | lance_
+ hblodget        | om
+ RonConwayFacts  | mcuban
+ Caterina        | mkapor
+ BradStone       | ericschmidt
+ adinscannell    | naval
+ tristanwalker   | alexia
+ erickschonfeld  | RonConway
+ marissamayer    | om
+ mlevchin        | pierre
+ gideonyu        | nickbilton
+ drscan          | karenreid
+ hyfen           | adinscannell
+ stop            | Scobleizer
+ aplusk          | brianp
+ karaswisher     | hblodget
+ rabois          | msuster
+ markpinc        | algore
+ hblodget        | adambain
+ McAndrew        | mattcohler
+ carr2n          | longreads
+ johndoerr       | om
+ asenkut         | vkhosla
+ bhorowitz       | mattcohler
+ satishd         | kevin
+ codinghorror    | fredwilson
+ gvwilson        | shawnkono
+ ccheever        | drewhouston
+ karaswisher     | markoff
+ johndoerr       | markpinc
+ gideonyu        | Chad_Hurley
+ mmccue          | davidhornik
+ sarahcuda       | bgurley
+ jeff            | shervin
+ peterpham       | mattcutts
+ btaylor         | asenkut
+ aran_donohue    | ycombinator
+ bingfish        | joshk
+ davemorin       | parislemon
+ garrytan        | codinghorror
+ jharjono        | adamgoucher
+ drewhouston     | cdixon
+ ericschmidt     | carr2n
+ aran_donohue    | avibryant
+ gideonyu        | rabois
+ johndoerr       | biz
+ karaswisher     | vkhosla
+ adamlashinsky   | mkapor
+ cdixon          | SteveCase
+ geoff_yang      | marissamayer
+ adamdangelo     | BillGates
+ bijan           | SteveMartinToGo
+ bgurley         | ericschmidt
+ joelcrocker     | bwinton
+ m2jr            | BillGates
+ adambain        | NickKristof
+ mmccue          | stevenjayl
+ Dropbox         | drewhouston
+ markpinc        | shawnfanning
+ btaylor         | Dropbox
+ aran_donohue    | neilernst
+ mlevchin        | Caterina
+ marissamayer    | biz
+ ariannahuff     | cshirky
+ eladgil         | Bill_Gross
+ BradStone       | mcuban
+ btaylor         | jhuber
+ adamlashinsky   | mlevchin
+ erickschonfeld  | kevin
+ pierre          | NickKristof
+ mkapor          | AlecJRoss
+ asmartbear      | timoreilly
+ tristanwalker   | shervin
+ pkedrosky       | erhanerdogan
+ sarahcuda       | SteveMartinToGo
+ vkhosla         | stevenjayl
+ om              | pud
+ quixotic        | elatable
+ quixotic        | TechCrunch
+ asenkut         | johndoerr
+ Caterina        | peterpham
+ bingfish        | SteveCase
+ aplusk          | tristanwalker
+ ericries        | johndoerr
+ spolsky         | joshu
+ geoff_yang      | jimmyfallon
+ dickc           | brianp
+ JBoorstin       | dens
+ btaylor         | ccheever
+ mmccue          | ccheever
+ phyllers        | jobias
+ mattcohler      | bgurley
+ mike_conley     | adamgoucher
+ irvingreid      | shazow
+ paultoo         | Oprah
+ jddimarco       | torontoist
+ mkapor          | sacca
+ AlecJRoss       | KatieS
+ elatable        | nikesharora
+ UCOSP           | lhawthorn
+ MarcBodnick     | hblodget
+ McAndrew        | dickc
+ rabois          | om
+ bingfish        | Joi
+ edyson          | pierre
+ dickc           | jimmyfallon
+ parislemon      | andrewrsorkin
+ bgarlinghouse   | vkhosla
+ mkapor          | naval
+ geoff_yang      | mcuban
+ lizblankenship  | hyfen
+ dannyrimer      | joshu
+ bingfish        | marissamayer
+ fredwilson      | BradStone
+ jeff            | QueenRania
+ peterfenton     | pierre
+ m2jr            | vkhosla
+ johnbattelle    | Benchmark
+ gvwilson        | irvingreid
+ adamlashinsky   | ev
+ pgries          | plagal
+ quixotic        | rabois
+ nikesharora     | pierre
+ bijan           | HowardStern
+ naval           | pierre
+ bhorowitz       | dickc
+ BradStone       | marissamayer
+ kevinrose       | paulg
+ amac            | peterfenton
+ bhorowitz       | quixotic
+ lizblankenship  | bwinton
+ zuzelvp         | shawnkono
+ Borthwick       | brianp
+ kevinrose       | sarahcuda
+ ariannahuff     | aplusk
+ phyllers        | wolever
+ karaswisher     | andrewrsorkin
+ stevenjayl      | paulg
+ om              | RonConway
+ parislemon      | longreads
+ bingfish        | TechCrunch
+ McAndrew        | pkedrosky
+ dickc           | pschiller
+ adinscannell    | adamgoucher
+ gideonyu        | TechCrunch
+ zittrain        | johnbattelle
+ peterpham       | bhorowitz
+ adamlashinsky   | KatieS
+ johnbattelle    | davemorin
+ naval           | davemorin
+ foundersatwork  | brianp
+ geoff_yang      | SteveCase
+ naval           | pud
+ JasonHirschhorn | HowardStern
+ Caterina        | m2jr
+ pgries          | bwinton
+ AlecJRoss       | McAndrew
+ ericries        | drewhouston
+ mkapor          | McAndrew
+ jeffbalogh      | avibryant
+ bijan           | iamwill
+ ericschmidt     | om
+ btaylor         | finkd
+ MarcBodnick     | eladgil
+ bgarlinghouse   | dickc
+ biz             | NickKristof
+ alexia          | markoff
+ waltmossberg    | erhanerdogan
+ stevenjayl      | johndoerr
+ jhuber          | johndoerr
+ bgurley         | geoff_yang
+ jharjono        | avibryant
+ McAndrew        | vkhosla
+ erickschonfeld  | katiecouric
+ randizuckerberg | Chad_Hurley
+ gvanrossum      | jhuber
+ timoreilly      | ariannahuff
+ naval           | jack
+ peterfenton     | m2jr
+ naval           | m2jr
+ McAndrew        | btaylor
+ brianp          | ginab
+ bgurley         | JasonHirschhorn
+ nikesharora     | parislemon
+ rabois          | garrytan
+ bgarlinghouse   | Borthwick
+ erickschonfeld  | Scobleizer
+ shawnfanning    | aplusk
+ paultoo         | TechCrunch
+ jharjono        | shazow
+ LilaFontes      | andrewtrusty
+ bgarlinghouse   | quixotic
+ satishd         | davemorin
+ bijan           | pschiller
+ drewhouston     | ericschmidt
+ erickschonfeld  | edyson
+ cshirky         | randizuckerberg
+ asenkut         | Harjeet
+ pgries          | hyfen
+ mmccue          | biz
+ marissamayer    | kevinrose
+ dannyrimer      | asenkut
+ m2jr            | pkedrosky
+ drscan          | adamgoucher
+ erickschonfeld  | naval
+ markpinc        | peterpham
+ Bill_Gross      | TechCrunch
+ marissamayer    | stevenjayl
+ isaacezer       | markpinc
+ spolsky         | asmartbear
+ nikesharora     | RonConway
+ sarahcuda       | mcuban
+ ericries        | paulg
+ om              | JVascellaro
+ sarahcuda       | rabois
+ peterfenton     | RonConway
+ peterfenton     | ericries
+ nickbilton      | om
+ katiecouric     | jack
+ asenkut         | paulg
+ hotdogsladies   | SteveMartinToGo
+ stop            | parislemon
+ TEDchris        | erhanerdogan
+ zephoria        | Borthwick
+ karaswisher     | BradStone
+ paulg           | brianp
+ karaswisher     | gideonyu
+ davemcclure     | foundersatwork
+ dickc           | SteveMartinToGo
+ gvwilson        | asmartbear
+ erickschonfeld  | zittrain
+ paultoo         | brianp
+ AlecJRoss       | SarahKSilverman
+ bgurley         | RonConwayFacts
+ Harjeet         | tristanwalker
+ sarahcuda       | joshk
+ ericries        | waltmossberg
+ biz             | jack
+ jeff            | msuster
+ sacca           | NickKristof
+ karaswisher     | Borthwick
+ markpinc        | JVascellaro
+ drscan          | lmds
+ mmccue          | nicknotned
+ MarcBodnick     | drewhouston
+ waltmossberg    | mcuban
+ shazow          | foundersatwork
+ TechCrunch      | alexia
+ Oprah           | jimmyfallon
+ shawnfanning    | cshirky
+ hblodget        | ariannahuff
+ zuzelvp         | jrrmzz
+ dickc           | instagram
+ pkedrosky       | Bill_Gross
+ brianp          | shervin
+ marissamayer    | QueenRania
+ fosslc          | asmartbear
+ SteveCase       | adamdangelo
+ nikesharora     | mattcutts
+ karaswisher     | pkedrosky
+ davidhornik     | TEDchris
+ peterfenton     | MarcBodnick
+ TechCrunch      | Dropbox
+ ginab           | gideonyu
+ elatable        | carr2n
+ davidhornik     | cshirky
+ pkedrosky       | cdixon
+ waltmossberg    | ericschmidt
+ dickc           | RonConwayFacts
+ alexia          | andrewrsorkin
+ davidhornik     | pkedrosky
+ pchelinn        | wolever
+ davidhornik     | quixotic
+ Joseph_Y        | lance_
+ vkhosla         | erickschonfeld
+ spolsky         | kevinrose
+ brianp          | alexia
+ asenkut         | pkedrosky
+ pchelinn        | swcarpentry
+ bgurley         | SteveMartinToGo
+ mattcohler      | TechCrunch
+ mattcohler      | elatable
+ cdixon          | RonConwayFacts
+ mattcohler      | erhanerdogan
+ davemorin       | Scobleizer
+ sacca           | kevin
+ msuster         | pud
+ joelcrocker     | shazow
+ mmccue          | JBoorstin
+ btaylor         | joshu
+ bijan           | tristanwalker
+ shawnfanning    | TEDchris
+ aran_donohue    | hyfen
+ drewhouston     | marissamayer
+ ericries        | foundersatwork
+ spolsky         | alexia
+ drscan          | bwinton
+ ioerror         | amac
+ fredwilson      | dannyrimer
+ bgarlinghouse   | mattcohler
+ markpinc        | Scobleizer
+ paultoo         | ericschmidt
+ cssu            | torontoist
+ sarahcuda       | ericschmidt
+ mattcohler      | Joi
+ aran_donohue    | bwinton
+ bijan           | nickbilton
+ Harjeet         | mcuban
+ markpinc        | sacca
+ aplusk          | SteveMartinToGo
+ Harjeet         | joshk
+ markpinc        | edyson
+ johndoerr       | ginab
+ shazow          | paulg
+ pierre          | AlecJRoss
+ alexia          | codinghorror
+ markpinc        | Caterina
+ AlecJRoss       | NickKristof
+ markpinc        | johnbattelle
+ johndoerr       | davemcclure
+ mike_conley     | plagal
+ drscan          | adinscannell
+ mkapor          | ericries
+ bingfish        | cdixon
+ TEDchris        | ericschmidt
+ pud             | paulg
+ mcuban          | fredwilson
+ markpinc        | mkapor
+ ccheever        | johndoerr
+ edyson          | dens
+ gideonyu        | cdixon
+ lmds            | adinscannell
+ parislemon      | drewhouston
+ jobias          | notch
+ RonConway       | aplusk
+ bgarlinghouse   | TEDchris
+ bgurley         | Bill_Gross
+ peterpham       | Benchmark
+ shazow          | andrewmason
+ peterpham       | pierre
+ ericschmidt     | nikesharora
+ phyllers        | isaacezer
+ johndoerr       | davidhornik
+ vkhosla         | om
+ parislemon      | mattcohler
+ adamlashinsky   | m2jr
+ pierre          | KatieS
+ JasonHirschhorn | geoff_yang
+ stevenjayl      | btaylor
+ peterfenton     | dens
+ cdixon          | geoff_yang
+ yorchopolis     | swcarpentry
+ adamlashinsky   | jack
+ btaylor         | markpinc
+ lizblankenship  | shazow
+ mkapor          | m2jr
+ mmccue          | adambain
+ mattcohler      | joshk
+ randizuckerberg | brianp
+ mattcutts       | cshirky
+ ccheever        | timoreilly
+ irvingreid      | adinscannell
+ marissamayer    | asenkut
+ quixotic        | bgurley
+ AlecJRoss       | jack
+ TEDchris        | nytimes
+ RonConwayFacts  | Bill_Gross
+ mkapor          | ycombinator
+ spolsky         | fredwilson
+ parislemon      | andrewmason
+ RonConwayFacts  | paultoo
+ garrytan        | waltmossberg
+ aplusk          | Bill_Gross
+ cdixon          | JasonHirschhorn
+ satishd         | Caterina
+ Benchmark       | ev
+ naval           | bhorowitz
+ sacca           | dens
+ geoff_yang      | RonConwayFacts
+ irvingreid      | hyfen
+ cjmuise         | gvwilson
+ shawnfanning    | mattcohler
+ Chad_Hurley     | stop
+ pgries          | lmds
+ adamdangelo     | paulg
+ m2jr            | paulg
+ bgarlinghouse   | sarahcuda
+ mattcohler      | mcuban
+ geoff_yang      | markpinc
+ hyfen           | timoreilly
+ karaswisher     | johnbattelle
+ om              | eladgil
+ nicknotned      | longreads
+ sarahcuda       | shervin
+ Caterina        | dannyrimer
+ jeff            | bgurley
+ JBoorstin       | aplusk
+ fosslc          | spolsky
+ eladgil         | davemcclure
+ hblodget        | jeff
+ MarcBodnick     | peterpham
+ nikesharora     | dannyrimer
+ karaswisher     | KatieS
+ timoreilly      | ericschmidt
+ bhorowitz       | SarahKSilverman
+ pkedrosky       | om
+ ginab           | ev
+ cshirky         | markpinc
+ adamdangelo     | stevebmicrosoft
+ Bill_Gross      | shervin
+ gvwilson        | HeatherLeson
+ ginab           | Caterina
+ pud             | stevebmicrosoft
+ SteveCase       | amac
+ shawnfanning    | ev
+ markoff         | Chad_Hurley
+ om              | paulg
+ gvwilson        | spolsky
+ davidhornik     | davemorin
+ mattcohler      | ccheever
+ mlevchin        | vkhosla
+ randizuckerberg | ccheever
+ mmccue          | bgurley
+ shazow          | adinscannell
+ btaylor         | bgurley
+ paultoo         | asenkut
+ paultoo         | davidhornik
+ yorchopolis     | jharjono
+ kevin           | jack
+ waltmossberg    | carr2n
+ SteveCase       | iamwill
+ ginab           | KatieS
+ flaps           | neilernst
+ lessig          | Joi
+ QueenRania      | algore
+ randizuckerberg | fredwilson
+ vkhosla         | RonConwayFacts
+ dickc           | Gladwell
+ johndoerr       | Chad_Hurley
+ JBoorstin       | quixotic
+ mattcutts       | JVascellaro
+ paulg           | davemcclure
+ HeatherLeson    | fosslc
+ quixotic        | Gladwell
+ lessig          | SteveCase
+ geoff_yang      | joshu
+ BradStone       | adambain
+ mkapor          | vkhosla
+ ycombinator     | sacca
+ karenreid       | lhawthorn
+ nikesharora     | timoreilly
+ hblodget        | nickbilton
+ zuzelvp         | jonpipitone
+ bingfish        | markpinc
+ jddimarco       | wolever
+ joelcrocker     | codinghorror
+ johndoerr       | ericschmidt
+ kevinrose       | shawnfanning
+ quixotic        | joshu
+ om              | andrewmason
+ peterfenton     | timoreilly
+ pchelinn        | mike_conley
+ marissamayer    | nickbilton
+ sarahcuda       | davemcclure
+ marissamayer    | nytimes
+ nickbilton      | instagram
+ jharjono        | rtulk
+ ariannahuff     | SarahKSilverman
+ RonConwayFacts  | kn0thing
+ mattcohler      | kevinrose
+ joshu           | foundersatwork
+ markpinc        | mattcohler
+ jhuber          | zephoria
+ brianp          | pschiller
+ spolsky         | marissamayer
+ joshu           | gideonyu
+ bhorowitz       | dens
+ drewhouston     | alexia
+ Chad_Hurley     | HowardStern
+ om              | drewhouston
+ Borthwick       | Gladwell
+ jhuber          | jack
+ ycombinator     | ev
+ kevinrose       | ycombinator
+ Joi             | nickbilton
+ jeff            | cdixon
+ shawnfanning    | mkapor
+ parislemon      | stevebmicrosoft
+ Harjeet         | fredwilson
+ peterpham       | bingfish
+ pierre          | sarahcuda
+ avibryant       | Caterina
+ nytimes         | SteveMartinToGo
+ mlevchin        | BillGates
+ alexia          | zephoria
+ VevWong         | summersoulTO
+ ev              | dannyrimer
+ JBoorstin       | dickc
+ KatieS          | markoff
+ paulg           | garrytan
+ adamlashinsky   | vkhosla
+ sarahcuda       | fredwilson
+ Harjeet         | garrytan
+ bhorowitz       | karaswisher
+ paultoo         | fredwilson
+ johndoerr       | SteveCase
+ TEDchris        | stevenjayl
+ paultoo         | ccheever
+ adamlashinsky   | timoreilly
+ karenreid       | shazow
+ Chad_Hurley     | JasonHirschhorn
+ marissamayer    | brianp
+ erickschonfeld  | paulg
+ pkedrosky       | msuster
+ mmccue          | Oprah
+ ccheever        | karaswisher
+ jharjono        | remarkk
+ peterpham       | paulg
+ cjmuise         | torontoist
+ marissamayer    | rabois
+ MarcBodnick     | naval
+ stevenjayl      | McAndrew
+ ericschmidt     | JasonHirschhorn
+ satishd         | quixotic
+ sacca           | mmccue
+ bgarlinghouse   | JVascellaro
+ drewhouston     | shervin
+ jeff            | Bill_Gross
+ m2jr            | davemorin
+ Borthwick       | nicknotned
+ RonConwayFacts  | adambain
+ nickbilton      | RonConwayFacts
+ bingfish        | biz
+ marissamayer    | lessig
+ adamlashinsky   | johndoerr
+ sarahcuda       | ariannahuff
+ zuzelvp         | fosslc
+ joshu           | eladgil
+ markoff         | elatable
+ JasonHirschhorn | nikesharora
+ Caterina        | mmccue
+ satishd         | gideonyu
+ naval           | btaylor
+ BradStone       | nikesharora
+ RonConwayFacts  | satishd
+ johndoerr       | joshk
+ bgarlinghouse   | pierre
+ mike_conley     | codinghorror
+ peterfenton     | mmccue
+ adamlashinsky   | hblodget
+ stevenjayl      | dens
+ mmccue          | HowardStern
+ davidhornik     | mlevchin
+ nikesharora     | vkhosla
+ m2jr            | Benchmark
+ QueenRania      | NickKristof
+ marissamayer    | SteveCase
+ bgarlinghouse   | peterpham
+ RonConway       | ev
+ jeff            | SteveMartinToGo
+ shawnfanning    | davemorin
+ hblodget        | marissamayer
+ marissamayer    | Joi
+ lmds            | aplusk
+ johndoerr       | TechCrunch
+ andrewtrusty    | hyfen
+ TEDchris        | QueenRania
+ UCOSP           | lance_
+ mattcutts       | stevebmicrosoft
+ sacca           | longreads
+ markpinc        | quixotic
+ joelcrocker     | gvanrossum
+ Joi             | amac
+ karaswisher     | davemorin
+ cssu            | fosslc
+ mattcohler      | adamdangelo
+ peterpham       | drewhouston
+ elatable        | rabois
+ pschiller       | jimmyfallon
+ erickschonfeld  | mattcohler
+ mmccue          | instagram
+ flaps           | plagal
+ paultoo         | Dropbox
+ Borthwick       | kn0thing
+ mcuban          | ericschmidt
+ Bill_Gross      | alexia
+ davidhornik     | Scobleizer
+ McAndrew        | NickKristof
+ mattcohler      | ginab
+ johnbattelle    | longreads
+ randizuckerberg | ginab
+ bgurley         | Gladwell
+ Harjeet         | shervin
+ jeffbalogh      | longreads
+ paultoo         | jhuber
+ geoff_yang      | biz
+ erickschonfeld  | andrewmason
+ codinghorror    | hotdogsladies
+ QueenRania      | jack
+ marissamayer    | amac
+ elatable        | SteveCase
+ pierre          | aplusk
+ markpinc        | dickc
+ andrewtrusty    | bwinton
+ ginab           | JVascellaro
+ NickKristof     | KatieS
+ fredwilson      | RonConway
+ foundersatwork  | kn0thing
+ torontoist      | bwinton
+ sarahcuda       | alexia
+ joelcrocker     | cssu
+ asenkut         | johnbattelle
+ rabois          | tristanwalker
+ drewhouston     | garrytan
+ mmccue          | SteveMartinToGo
+ fosslc          | ericschmidt
+ gvanrossum      | marissamayer
+ nikesharora     | BillGates
+ biz             | vkhosla
+ karaswisher     | zephoria
+ johndoerr       | Bill_Gross
+ om              | mmccue
+ om              | btaylor
+ drewhouston     | markpinc
+ phyllers        | jeffbalogh
+ karaswisher     | parislemon
+ mmccue          | rabois
+ alexia          | mkapor
+ adamlashinsky   | mattcohler
+ kn0thing        | aplusk
+ amac            | SteveMartinToGo
+ davemorin       | mmccue
+ mmccue          | joshk
+ marissamayer    | Oprah
+ nikesharora     | aplusk
+ kevinrose       | mlevchin
+ ginab           | jack
+ waltmossberg    | adamlashinsky
+ vkhosla         | rabois
+ alexia          | zittrain
+ SarahKSilverman | katiecouric
+ shawnfanning    | m2jr
+ elatable        | randizuckerberg
+ hblodget        | Bill_Gross
+ ericschmidt     | Chad_Hurley
+ phyllers        | mike_conley
+ sarahcuda       | nicknotned
+ gvwilson        | yorchopolis
+ karenreid       | adamgoucher
+ markoff         | ioerror
+ jeff            | rabois
+ karaswisher     | m2jr
+ vkhosla         | SteveCase
+ Benchmark       | andrewrsorkin
+ shazow          | ycombinator
+ Harjeet         | joshu
+ kevin           | ev
+ mlevchin        | eladgil
+ shawnfanning    | pud
+ stevenjayl      | AlecJRoss
+ flaps           | lizblankenship
+ pschiller       | SteveMartinToGo
+ stevenjayl      | johnbattelle
+ sarahcuda       | finkd
+ edyson          | cshirky
+ JVascellaro     | BillGates
+ garrytan        | zephoria
+ paulg           | kn0thing
+ paultoo         | finkd
+ stevenjayl      | edyson
+ peterfenton     | Borthwick
+ om              | BillGates
+ mattcutts       | McAndrew
+ drscan          | codinghorror
+ bgarlinghouse   | karaswisher
+ isaacezer       | nytimes
+ jaygoldman      | vkhosla
+ naval           | cshirky
+ adamlashinsky   | sarahcuda
+ BillGates       | nytimes
+ peterfenton     | cshirky
+ KatieS          | gideonyu
+ stevenjayl      | KatieS
+ joshk           | geoff_yang
+ jrrmzz          | lmds
+ naval           | pkedrosky
+ karaswisher     | mattcutts
+ garrytan        | shawnfanning
+ naval           | quixotic
+ bingfish        | fredwilson
+ adamlashinsky   | paulg
+ waltmossberg    | biz
+ paultoo         | peterfenton
+ pchelinn        | Joseph_Y
+ McAndrew        | JVascellaro
+ nickbilton      | ericschmidt
+ adamlashinsky   | TEDchris
+ btaylor         | elatable
+ alexia          | KatieS
+ parislemon      | MarcBodnick
+ JVascellaro     | andrewrsorkin
+ peterfenton     | BradStone
+ pschiller       | instagram
+ RonConwayFacts  | adamdangelo
+ elatable        | bijan
+ peterpham       | johndoerr
+ bgurley         | davemcclure
+ mattcohler      | joshu
+ mkapor          | sarahcuda
+ marissamayer    | randizuckerberg
+ sacca           | foundersatwork
+ nickbilton      | Chad_Hurley
+ geoff_yang      | jhuber
+ UCOSP           | timoreilly
+ karenreid       | lmds
+ btaylor         | amac
+ spolsky         | cdixon
+ SteveMartinToGo | Gladwell
+ spolsky         | hotdogsladies
+ m2jr            | ycombinator
+ vkhosla         | TechCrunch
+ irvingreid      | remarkk
+ m2jr            | bgarlinghouse
+ cdixon          | ccheever
+ quixotic        | kevinrose
+ shawnfanning    | ericries
+ jeff            | marissamayer
+ adamdangelo     | jack
+ peterfenton     | waltmossberg
+ drewhouston     | msuster
+ zittrain        | cshirky
+ bijan           | adambain
+ jharjono        | paulg
+ adamlashinsky   | Borthwick
+ karenreid       | bwinton
+ fredwilson      | KatieS
+ brianp          | HowardStern
+ Chad_Hurley     | pschiller
+ pkedrosky       | shervin
+ quixotic        | shervin
+ eladgil         | erickschonfeld
+ adamdangelo     | bhorowitz
+ randizuckerberg | nicknotned
+ fredwilson      | Caterina
+ peterfenton     | paulg
+ stevenjayl      | JVascellaro
+ cdixon          | adamdangelo
+ naval           | paulg
+ ericschmidt     | TechCrunch
+ ericschmidt     | elatable
+ jddimarco       | gvwilson
+ AlecJRoss       | quixotic
+ joshu           | vkhosla
+ asmartbear      | ericries
+ codinghorror    | spolsky
+ Borthwick       | carr2n
+ quixotic        | asenkut
+ jhuber          | Benchmark
+ karenreid       | adinscannell
+ jddimarco       | spolsky
+ mkapor          | Borthwick
+ dannyrimer      | SteveMartinToGo
+ nickbilton      | lessig
+ BradStone       | ginab
+ bingfish        | adamdangelo
+ TEDchris        | erickschonfeld
+ naval           | eladgil
+ hblodget        | bgurley
+ Harjeet         | kn0thing
+ adamlashinsky   | gideonyu
+ bijan           | markpinc
+ Caterina        | TEDchris
+ andrewrsorkin   | erhanerdogan
+ TEDchris        | Gladwell
+ Bill_Gross      | adambain
+ sarahcuda       | satishd
+ adinscannell    | drewhouston
+ BillGates       | SteveCase
+ karenreid       | hyfen
+ RonConway       | jack
+ drewhouston     | kn0thing
+ markpinc        | markoff
+ JBoorstin       | andrewrsorkin
+ paulg           | joshu
+ flaps           | lmds
+ mattcohler      | biz
+ pkedrosky       | davemcclure
+ drewhouston     | peterfenton
+ jack            | SarahKSilverman
+ ericries        | ycombinator
+ gvwilson        | wolever
+ hblodget        | JasonHirschhorn
+ cshirky         | ginab
+ davidhornik     | pud
+ mattcohler      | stop
+ sarahcuda       | erickschonfeld
+ VevWong         | hyfen
+ garrytan        | kevin
+ hyfen           | paulg
+ edyson          | mattcohler
+ satishd         | dannyrimer
+ biz             | paulg
+ BradStone       | davidhornik
+ amac            | RonConwayFacts
+ gideonyu        | shervin
+ biz             | TEDchris
+ naval           | Harjeet
+ BradStone       | shervin
+ iamwill         | RonConwayFacts
+ drscan          | rtulk
+ RonConwayFacts  | stevenjayl
+ btaylor         | Chad_Hurley
+ gideonyu        | davidhornik
+ VevWong         | bwinton
+ pud             | kevin
+ mattcohler      | peterfenton
+ gideonyu        | asenkut
+ drscan          | timoreilly
+ fosslc          | ioerror
+ mlevchin        | dickc
+ drewhouston     | biz
+ QueenRania      | ev
+ johndoerr       | cdixon
+ mlevchin        | bingfish
+ avibryant       | SarahKSilverman
+ cjmuise         | jeffbalogh
+ JVascellaro     | timoreilly
+ QueenRania      | katiecouric
+ peterpham       | BillGates
+ karaswisher     | dens
+ mlevchin        | gideonyu
+ andrewtrusty    | shazow
+ jonpipitone     | HeatherLeson
+ Harjeet         | msuster
+ RonConwayFacts  | alexia
+ MarcBodnick     | RonConway
+ MarcBodnick     | ericries
+ ariannahuff     | katiecouric
+ BillGates       | TechCrunch
+ rtulk           | yorchopolis
+(1774 rows)
+
+
+------------------------------------------------query2-----------------------------------------------
+
+      name      |  username   
+----------------+-------------
+ Jorge Aranda   | yorchopolis
+ karenreid      | karenreid
+ jddimarco      | jddimarco
+ Alan Rosenthal | flaps
+ David Wolever  | wolever
+ Irving Reid    | irvingreid
+ Paul Gries     | pgries
+ Veronica Wong  | VevWong
+(8 rows)
+
+
+------------------------------------------------query3-----------------------------------------------
+
+
+    username     |         name         |            location            | pop 
+-----------------+----------------------+--------------------------------+-----
+ SteveMartinToGo | Steve Martin         | A plane, probably.             |  24
+ paulg           | Paul Graham          |                                |  21
+ jack            | Jack Dorsey          | NYC & San Francisco            |  17
+ shervin         | Shervin Pishevar     | iPhone: 38.918396,-77.193481   |  16
+ TechCrunch      | TechCrunch           | Silicon Valley                 |  14
+ BillGates       | Bill Gates           | Seattle, WA                    |  14
+ HowardStern     | Howard Stern         |                                |  14
+ wolever         | David Wolever        | Waterloo, Ontario              |  14
+ SteveCase       | Steve Case           | Washington DC                  |  12
+ bwinton         | bwinton              | Toronto, ON (43.700895,-79.380 |  12
+ andrewmason     | Andrew Mason         | Chicago, IL                    |  11
+ davemcclure     | Dave McClure         | Silicon Valley, CA             |  11
+ instagram       | Instagram            |                                |  11
+ algore          | Al Gore              | Nashville, TN                  |  10
+ jimmyfallon     | jimmy fallon         | New York, New York             |  10
+ KatieS          | Katie Jacobs Stanton | San Francisco, California      |  10
+ msuster         | Mark Suster          | Los Angeles                    |  10
+ longreads       | Longreads            | New York                       |  10
+ Chad_Hurley     | Chad Hurley          | CA, USA                        |   9
+ Gladwell        | Gladwell             | New York                       |   9
+ timoreilly      | Tim O'Reilly         | Sebastopol, CA                 |   9
+ davemorin       | Dave Morin           | San Francisco                  |   9
+ Scobleizer      | Robert Scoble        | Half Moon Bay, California, USA |   9
+ aplusk          | ashton kutcher       | Los Angeles, California        |   9
+ stevebmicrosoft | steve b              |                                |   8
+ NickKristof     | Nicholas Kristof     | Everywhere                     |   8
+ adambain        | adam bain            | Hermosa Beach...soon SF        |   8
+ pschiller       | Philip Schiller      | Silicon Valley, CA             |   8
+ dens            | Dennis Crowley       | nyc                            |   8
+ Bill_Gross      | Bill Gross           | Pasadena, CA                   |   8
+ finkd           | Mark Zuckerberg      |                                |   8
+ andrewrsorkin   | Andrew Ross Sorkin   | New York, New York             |   8
+ nytimes         | The New York Times   | New York, NY                   |   8
+ mcuban          | Mark Cuban           |                                |   8
+ cshirky         | Clay Shirky          | New York City                  |   8
+ nicknotned      | Nick Denton          | 10012                          |   8
+ ycombinator     | Y Combinator         | Mountain View                  |   7
+ erhanerdogan    | Erhan Erdogan        | istanbul                       |   7
+ hyfen           | Andrew Louis         | Toronto                        |   7
+ RonConway       | Ron Conway           |                                |   7
+ brianp          | brian pokorny        | San Francisco                  |   6
+ katiecouric     | Katie Couric         | New York, NY                   |   6
+ Joi             | Joi Ito              | Dubai                          |   6
+ Oprah           | Oprah Winfrey        | Chicago, IL                    |   6
+ neilernst       | Neil Ernst           | Toronto                        |   6
+ adamgoucher     | adamgoucher          | Toronto                        |   6
+ Dropbox         | Dropbox              | sf, ca                         |   6
+ torontoist      | Torontoist           | Toronto                        |   6
+ Caterina        | Caterina             | 37.775201,-122.432742          |   6
+ hotdogsladies   | Merlin Mann          | San Francisco, Calif.          |   5
+ plagal          | Michalis Famelis     | Toronto, ON                    |   5
+ carr2n          | david carr           | ÜT: 40.790571,-74.053328       |   5
+ swcarpentry     | Software Carpentry   | Science                        |   5
+ zittrain        | Jonathan Zittrain    | Cambridge, MA, USA             |   5
+ kn0thing        | Alexis Ohanian       | Brooklyn, NY                   |   5
+ foundersatwork  | Jessica Livingston   |                                |   5
+ iamwill         | will.i.am            |                                |   5
+ pierre          | Pierre Omidyar       | Honolulu, HI                   |   5
+ ev              | Evan Williams        | San Francisco, CA, US          |   5
+ codinghorror    | Jeff Atwood          | Bay Area, CA                   |   5
+ ioerror         | Jacob Appelbaum      | The Village; Be Seeing You!    |   4
+ cdixon          | chris dixon          | nyc                            |   4
+ adinscannell    | Adin Scannell        | Toronto                        |   4
+ zephoria        | danah boyd           | Boston, MA                     |   4
+ notch           | Markus Persson       | Stockholm, Sweden              |   4
+ dickc           | dick costolo         | San Francisco                  |   4
+ RonConwayFacts  | Ron Conway Facts     | invested in your company       |   4
+ SarahKSilverman | Sarah Silverman      | Tehran, Iran                   |   4
+ lhawthorn       | Leslie Hawthorn      | Portland, OR                   |   4
+ yorchopolis     | Jorge Aranda         | Toronto                        |   3
+ ginab           | Gina Bianchini       | Palo Alto, CA                  |   3
+ dannyrimer      | danny rimer          | London                         |   3
+ joshk           | Josh Kopelman        | Philly                         |   3
+ HeatherLeson    | HeatherLeson         | Toronto                        |   3
+ amac            | A Macgillivray       |                                |   3
+ waltmossberg    | Walt Mossberg        | Washington, DC                 |   2
+ jaygoldman      | Jay Goldman          | Toronto                        |   2
+ biz             | Biz Stone            | San Francisco, CA              |   2
+ johnbattelle    | John Battelle        | Marin, California              |   2
+ jobias          | James Leung          | Edmonton, Canada               |   2
+ ericschmidt     | Eric Schmidt         | Mountain View, CA              |   2
+ ariannahuff     | Arianna Huffington   |                                |   2
+ Benchmark       | Benchmark Capital    | Menlo Park, CA                 |   2
+ adamdangelo     | Adam D'Angelo        | Palo Alto, CA                  |   2
+ lmds            | Laurie               | Toronto                        |   2
+ tristanwalker   | tristan walker       | 37.447939,-122.166053          |   2
+ isaacezer       | isaacezer            | Tokyo                          |   1
+ stop            | Doug Bowman          | San Francisco, CA              |   1
+ avibryant       | Avi Bryant           | San Francisco                  |   1
+ asmartbear      | Jason Cohen          | Austin, TX                     |   1
+ cssu            | CSSU                 | Toronto, Canada                |   1
+ ccheever        | Charlie Cheever      | Palo Alto, CA                  |   1
+ mattcutts       | Matt Cutts           | Bay Area, California           |   1
+ remarkk         | Mark Kuznicki        | Toronto, Canada                |   1
+ shazow          | Andrey Petrov        | Palo Alto, CA                  |   1
+ jeffbalogh      | Jeff Balogh          | San Francisco                  |   1
+ joshu           | joshua schachter     |                                |   0
+ alexia          | Alexia Tsotsis       | iPhone: 34.008553,-118.489311  |   0
+ jhuber          | Jeff Huber           | Mountain View, CA              |   0
+ shawnkono       | Shawn Konopinsky     | iPhone: 42.932803,-78.766818   |   0
+ jrrmzz          | Jason                | Toronto                        |   0
+ nickbilton      | Nick Bilton          | Brooklyn, NY                   |   0
+ vkhosla         | Vinod Khosla         |                                |  -1
+ pkedrosky       | Paul Kedrosky        | La Jolla CA                    |  -1
+ jonpipitone     | Jon Pipitone         |                                |  -1
+ lance_          | lance underscore     | Toronto                        |  -1
+ LilaFontes      | LilaFontes           | North America                  |  -2
+ Joseph_Y        | Joseph Yeung         |                                |  -2
+ kevin           | Kevin S.             | San Francisco, CA.             |  -2
+ rabois          | Keith Rabois         | SF, CA                         |  -2
+ kevinrose       | Kevin Rose           | San Francisco, CA              |  -2
+ JVascellaro     | Jessica Vascellaro   | New York                       |  -2
+ TEDchris        | Chris Anderson       | New York City                  |  -2
+ m2jr            | Mike Maples          | California                     |  -2
+ AlecJRoss       | Alec Ross            | Everywhere                     |  -2
+ garrytan        | Garry Tan            | San Francisco, CA              |  -2
+ JasonHirschhorn | Jason Hirschhorn     | New York                       |  -3
+ pud             | Philip Kaplan        | San Francisco, CA              |  -3
+ lessig          | Lessig               | Brookline, MA                  |  -3
+ summersoulTO    | Jeremy Chan          | Toronto                        |  -3
+ eladgil         | Elad                 | San Francisco CA               |  -4
+ gideonyu        | Gideon Yu            | Silicon Valley (via Nashville) |  -4
+ Borthwick       | John Borthwick       | New York                       |  -4
+ markoff         | John Markoff         | San Francisco, CA              |  -4
+ fosslc          | Andrew Ross          | Ottawa, Ontario, Canada        |  -4
+ rtulk           | Rory Tulk            | Toronto                        |  -4
+ andrewtrusty    | andrewtrusty         | Toronto                        |  -5
+ edyson          | Esther Dyson         | in @davos in snow & parties    |  -5
+ drewhouston     | Drew Houston         | San Francisco, CA              |  -5
+ asenkut         | asenkut              | Palo Alto                      |  -5
+ dianelynnhorton | dianelynnhorton      | Toronto                        |  -5
+ irvingreid      | Irving Reid          | Toronto                        |  -5
+ sacca           | Chris Sacca          | San Francisco and Truckee, CA  |  -5
+ UCOSP           | UCOSP                | Canada                         |  -5
+ QueenRania      | Rania Al Abdullah    | Amman, Jordan                  |  -5
+ lizblankenship  | lizblankenship       |                                |  -6
+ flaps           | Alan Rosenthal       | southern Ontario               |  -6
+ quixotic        | Reid Hoffman         | Palo Alto, CA                  |  -6
+ parislemon      | MG Siegler           | San Francisco                  |  -6
+ mike_conley     | Mike Conley          | Toronto                        |  -6
+ om              | Om Malik             | ÜT: 37.795917,-122.39966       |  -6
+ elatable        | Bradley Horowitz     | Magic: 37.4319, -122.1467      |  -6
+ BradStone       | Brad Stone           | San Francisco                  |  -6
+ gvanrossum      | Guido van Rossum     | San Francisco Bay Area         |  -6
+ bhorowitz       | bhorowitz            |                                |  -6
+ VevWong         | Veronica Wong        | Toronto, Ontario               |  -7
+ shawnfanning    | shawnfanning         | San Francisco                  |  -8
+ bgurley         | Bill Gurley          | Sand Hill Road                 |  -8
+ spolsky         | Joel Spolsky         | New York, NY                   |  -9
+ gvwilson        | Greg Wilson          | Toronto, Ontario               |  -9
+ McAndrew        | Andrew McLaughlin    | Washington, DC                 |  -9
+ pgries          | Paul Gries           |                                |  -9
+ MarcBodnick     | Marc A. Bodnick      | Menlo Park, CA                 |  -9
+ fredwilson      | Fred Wilson          | New York City                  |  -9
+ phyllers        | Phyliss Lee          |                                | -10
+ zuzelvp         | Zuzel Vera           | Toronto                        | -10
+ drscan          | David Scannell       |                                | -10
+ mkapor          | Mitch Kapor          | San Francisco                  | -10
+ geoff_yang      | Geoff Yang           | Silicon Valley, CA             | -10
+ ericries        | Eric Ries            | SF                             | -10
+ hblodget        | Henry Blodget        |                                | -11
+ pchelinn        | Nikita Pchelin       | Mississauga                    | -11
+ aran_donohue    | Aran Donohue         | Toronto                        | -11
+ randizuckerberg | Randi Zuckerberg     | Silicon Valley                 | -12
+ jddimarco       | jddimarco            | Toronto, Ontario               | -12
+ mlevchin        | Max Levchin          | SF, CA                         | -12
+ jeff            | Jeff Clavier         | 37.446853,-122.161310          | -13
+ Harjeet         | Harjeet              | iPhone: 49.284729,-123.109573  | -13
+ paultoo         | Paul Buchheit        | San Francisco, CA              | -13
+ davidhornik     | David Hornik         | iPhone: 42.347153,-71.096069   | -13
+ cjmuise         | Christian Muise      | iPhone: 43.667969,-79.397385   | -14
+ satishd         | Satish Dharmaraj     | San Francisco Bay Area         | -14
+ joelcrocker     | Joel Crocker         | Toronto, ON                    | -14
+ nikesharora     | Nikesh Arora         | ÜT: 37.43737,-122.111096       | -14
+ erickschonfeld  | Erick Schonfeld      | New York                       | -15
+ jharjono        | Johan Harjono        |                                | -15
+ JBoorstin       | Julia Boorstin       | Los Angeles, CA                | -15
+ stevenjayl      | Steven Levy          | New York City                  | -15
+ mmccue          | Mike McCue           | Palo alto, ca                  | -16
+ karenreid       | karenreid            | Toronto                        | -17
+ peterfenton     | Peter Fenton         | ÜT: 34.043732,-118.256163      | -17
+ bgarlinghouse   | Brad Garlinghouse    |                                | -17
+ bingfish        | bing gordon          | ÜT: 37.766503,-122.397794      | -17
+ mattcohler      | Matt Cohler          |                                | -17
+ bijan           | Bijan Sabet          | Boston                         | -18
+ sarahcuda       | Sarah Lacy           | San Francisco, CA              | -18
+ markpinc        | mark pincus          | sf                             | -20
+ peterpham       | Peter                | Bay Area, CA                   | -21
+ naval           | Naval Ravikant       | San Francisco, CA              | -22
+ marissamayer    | marissamayer         | San Francisco, CA              | -23
+ btaylor         | Bret Taylor          | Mountain View, CA              | -25
+ johndoerr       | John Doerr           |                                | -26
+ karaswisher     | Kara Swisher         | San Francisco                  | -30
+ adamlashinsky   | Adam Lashinsky       |                                | -34
+(194 rows)
+
+
+------------------------------------------------query4-----------------------------------------------
+
+
+    username     | num_of_diff_users 
+-----------------+-------------------
+ jharjono        |               214
+ shazow          |               213
+ hyfen           |               213
+ jddimarco       |               212
+ aran_donohue    |               211
+ irvingreid      |               209
+ gvwilson        |               209
+ lmds            |               206
+ karenreid       |               202
+ drscan          |               197
+ joelcrocker     |               193
+ UCOSP           |               185
+ adinscannell    |               183
+ phyllers        |               182
+ pchelinn        |               178
+ andrewtrusty    |               175
+ yorchopolis     |               173
+ lance_          |               173
+ pgries          |               170
+ dianelynnhorton |               169
+ zuzelvp         |               169
+ lizblankenship  |               168
+ jonpipitone     |               167
+ peterfenton     |               163
+ mattcutts       |               163
+ spolsky         |               163
+ adamlashinsky   |               163
+ johndoerr       |               163
+ MarcBodnick     |               163
+ davidhornik     |               163
+ elatable        |               162
+ mkapor          |               162
+ ericries        |               162
+ fosslc          |               162
+ mattcohler      |               162
+ garrytan        |               162
+ erickschonfeld  |               162
+ stop            |               162
+ alexia          |               162
+ bijan           |               162
+ parislemon      |               162
+ mmccue          |               162
+ rabois          |               162
+ Harjeet         |               161
+ joshu           |               161
+ m2jr            |               161
+ karaswisher     |               161
+ adamdangelo     |               161
+ btaylor         |               161
+ shawnfanning    |               161
+ satishd         |               161
+ RonConwayFacts  |               161
+ adambain        |               161
+ drewhouston     |               161
+ pud             |               161
+ edyson          |               161
+ pkedrosky       |               161
+ ericschmidt     |               161
+ flaps           |               161
+ peterpham       |               161
+ gvanrossum      |               161
+ hblodget        |               161
+ om              |               161
+ mlevchin        |               161
+ gideonyu        |               160
+ ginab           |               160
+ lessig          |               160
+ jhuber          |               160
+ sacca           |               160
+ johnbattelle    |               160
+ McAndrew        |               160
+ codinghorror    |               160
+ sarahcuda       |               160
+ paultoo         |               160
+ stevenjayl      |               160
+ paulg           |               160
+ BradStone       |               160
+ marissamayer    |               160
+ ycombinator     |               160
+ nikesharora     |               160
+ nickbilton      |               160
+ naval           |               160
+ bgurley         |               160
+ markpinc        |               160
+ bgarlinghouse   |               160
+ jeff            |               160
+ tristanwalker   |               160
+ vkhosla         |               160
+ quixotic        |               160
+ fredwilson      |               160
+ randizuckerberg |               160
+ asenkut         |               160
+ dickc           |               159
+ AlecJRoss       |               159
+ amac            |               159
+ aplusk          |               159
+ Benchmark       |               159
+ bhorowitz       |               159
+ BillGates       |               159
+ bingfish        |               159
+ biz             |               159
+ Borthwick       |               159
+ Caterina        |               159
+ ccheever        |               159
+ cshirky         |               159
+ eladgil         |               159
+ geoff_yang      |               159
+ kevinrose       |               159
+ markoff         |               159
+ TEDchris        |               159
+ timoreilly      |               159
+ waltmossberg    |               159
+ zittrain        |               159
+ QueenRania      |               158
+ mike_conley     |               158
+ JasonHirschhorn |               158
+ JBoorstin       |               158
+ ev              |               158
+ foundersatwork  |               158
+ JVascellaro     |               158
+ Joi             |               158
+ dannyrimer      |               158
+ cdixon          |               158
+ dens            |               157
+ kevin           |               157
+ avibryant       |               157
+ mcuban          |               157
+ msuster         |               157
+ jack            |               157
+ Chad_Hurley     |               157
+ pierre          |               157
+ davemorin       |               157
+ cjmuise         |               156
+ SteveCase       |               154
+ shawnkono       |               154
+ ioerror         |               154
+ KatieS          |               154
+ cssu            |               154
+ joshk           |               154
+ iamwill         |               153
+ Bill_Gross      |               153
+ instagram       |               152
+ jaygoldman      |               152
+ andrewmason     |               152
+ zephoria        |               151
+ isaacezer       |               150
+ bwinton         |               150
+ Dropbox         |               150
+ brianp          |               149
+ VevWong         |               149
+ RonConway       |               148
+ SarahKSilverman |               147
+ asmartbear      |               147
+ wolever         |               142
+ kn0thing        |               140
+ Oprah           |               139
+ rtulk           |               139
+ ariannahuff     |               137
+ andrewrsorkin   |               134
+ jrrmzz          |               131
+ katiecouric     |               130
+ lhawthorn       |               128
+ jeffbalogh      |               126
+ pschiller       |               123
+ LilaFontes      |               122
+ Joseph_Y        |               119
+ summersoulTO    |               118
+ davemcclure     |               117
+ HowardStern     |               115
+ NickKristof     |               112
+ stevebmicrosoft |               110
+ TechCrunch      |               107
+ jobias          |               103
+ erhanerdogan    |               100
+ swcarpentry     |                99
+ HeatherLeson    |                86
+ neilernst       |                79
+ remarkk         |                74
+ longreads       |                63
+ nicknotned      |                53
+ shervin         |                50
+ SteveMartinToGo |                44
+ adamgoucher     |                39
+ nytimes         |                36
+ torontoist      |                30
+ jimmyfallon     |                22
+ hotdogsladies   |                10
+ carr2n          |                 7
+ Gladwell        |                 6
+(189 rows)
+

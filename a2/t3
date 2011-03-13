@@ -1,0 +1,198 @@
+    username     |         name         |            location            | pop 
+-----------------+----------------------+--------------------------------+-----
+ SteveMartinToGo | Steve Martin         | A plane, probably.             |  24
+ paulg           | Paul Graham          |                                |  21
+ jack            | Jack Dorsey          | NYC & San Francisco            |  17
+ shervin         | Shervin Pishevar     | iPhone: 38.918396,-77.193481   |  16
+ TechCrunch      | TechCrunch           | Silicon Valley                 |  14
+ BillGates       | Bill Gates           | Seattle, WA                    |  14
+ HowardStern     | Howard Stern         |                                |  14
+ wolever         | David Wolever        | Waterloo, Ontario              |  14
+ SteveCase       | Steve Case           | Washington DC                  |  12
+ bwinton         | bwinton              | Toronto, ON (43.700895,-79.380 |  12
+ andrewmason     | Andrew Mason         | Chicago, IL                    |  11
+ davemcclure     | Dave McClure         | Silicon Valley, CA             |  11
+ instagram       | Instagram            |                                |  11
+ algore          | Al Gore              | Nashville, TN                  |  10
+ jimmyfallon     | jimmy fallon         | New York, New York             |  10
+ KatieS          | Katie Jacobs Stanton | San Francisco, California      |  10
+ msuster         | Mark Suster          | Los Angeles                    |  10
+ longreads       | Longreads            | New York                       |  10
+ Chad_Hurley     | Chad Hurley          | CA, USA                        |   9
+ Gladwell        | Gladwell             | New York                       |   9
+ timoreilly      | Tim O'Reilly         | Sebastopol, CA                 |   9
+ davemorin       | Dave Morin           | San Francisco                  |   9
+ Scobleizer      | Robert Scoble        | Half Moon Bay, California, USA |   9
+ aplusk          | ashton kutcher       | Los Angeles, California        |   9
+ stevebmicrosoft | steve b              |                                |   8
+ NickKristof     | Nicholas Kristof     | Everywhere                     |   8
+ adambain        | adam bain            | Hermosa Beach...soon SF        |   8
+ pschiller       | Philip Schiller      | Silicon Valley, CA             |   8
+ dens            | Dennis Crowley       | nyc                            |   8
+ Bill_Gross      | Bill Gross           | Pasadena, CA                   |   8
+ finkd           | Mark Zuckerberg      |                                |   8
+ andrewrsorkin   | Andrew Ross Sorkin   | New York, New York             |   8
+ nytimes         | The New York Times   | New York, NY                   |   8
+ mcuban          | Mark Cuban           |                                |   8
+ cshirky         | Clay Shirky          | New York City                  |   8
+ nicknotned      | Nick Denton          | 10012                          |   8
+ ycombinator     | Y Combinator         | Mountain View                  |   7
+ erhanerdogan    | Erhan Erdogan        | istanbul                       |   7
+ hyfen           | Andrew Louis         | Toronto                        |   7
+ RonConway       | Ron Conway           |                                |   7
+ brianp          | brian pokorny        | San Francisco                  |   6
+ katiecouric     | Katie Couric         | New York, NY                   |   6
+ Joi             | Joi Ito              | Dubai                          |   6
+ Oprah           | Oprah Winfrey        | Chicago, IL                    |   6
+ neilernst       | Neil Ernst           | Toronto                        |   6
+ adamgoucher     | adamgoucher          | Toronto                        |   6
+ Dropbox         | Dropbox              | sf, ca                         |   6
+ torontoist      | Torontoist           | Toronto                        |   6
+ Caterina        | Caterina             | 37.775201,-122.432742          |   6
+ hotdogsladies   | Merlin Mann          | San Francisco, Calif.          |   5
+ plagal          | Michalis Famelis     | Toronto, ON                    |   5
+ carr2n          | david carr           | ÜT: 40.790571,-74.053328       |   5
+ swcarpentry     | Software Carpentry   | Science                        |   5
+ zittrain        | Jonathan Zittrain    | Cambridge, MA, USA             |   5
+ kn0thing        | Alexis Ohanian       | Brooklyn, NY                   |   5
+ foundersatwork  | Jessica Livingston   |                                |   5
+ iamwill         | will.i.am            |                                |   5
+ pierre          | Pierre Omidyar       | Honolulu, HI                   |   5
+ ev              | Evan Williams        | San Francisco, CA, US          |   5
+ codinghorror    | Jeff Atwood          | Bay Area, CA                   |   5
+ ioerror         | Jacob Appelbaum      | The Village; Be Seeing You!    |   4
+ cdixon          | chris dixon          | nyc                            |   4
+ adinscannell    | Adin Scannell        | Toronto                        |   4
+ zephoria        | danah boyd           | Boston, MA                     |   4
+ notch           | Markus Persson       | Stockholm, Sweden              |   4
+ dickc           | dick costolo         | San Francisco                  |   4
+ RonConwayFacts  | Ron Conway Facts     | invested in your company       |   4
+ SarahKSilverman | Sarah Silverman      | Tehran, Iran                   |   4
+ lhawthorn       | Leslie Hawthorn      | Portland, OR                   |   4
+ yorchopolis     | Jorge Aranda         | Toronto                        |   3
+ ginab           | Gina Bianchini       | Palo Alto, CA                  |   3
+ dannyrimer      | danny rimer          | London                         |   3
+ joshk           | Josh Kopelman        | Philly                         |   3
+ HeatherLeson    | HeatherLeson         | Toronto                        |   3
+ amac            | A Macgillivray       |                                |   3
+ waltmossberg    | Walt Mossberg        | Washington, DC                 |   2
+ jaygoldman      | Jay Goldman          | Toronto                        |   2
+ biz             | Biz Stone            | San Francisco, CA              |   2
+ johnbattelle    | John Battelle        | Marin, California              |   2
+ jobias          | James Leung          | Edmonton, Canada               |   2
+ ericschmidt     | Eric Schmidt         | Mountain View, CA              |   2
+ ariannahuff     | Arianna Huffington   |                                |   2
+ Benchmark       | Benchmark Capital    | Menlo Park, CA                 |   2
+ adamdangelo     | Adam D'Angelo        | Palo Alto, CA                  |   2
+ lmds            | Laurie               | Toronto                        |   2
+ tristanwalker   | tristan walker       | 37.447939,-122.166053          |   2
+ isaacezer       | isaacezer            | Tokyo                          |   1
+ stop            | Doug Bowman          | San Francisco, CA              |   1
+ avibryant       | Avi Bryant           | San Francisco                  |   1
+ asmartbear      | Jason Cohen          | Austin, TX                     |   1
+ cssu            | CSSU                 | Toronto, Canada                |   1
+ ccheever        | Charlie Cheever      | Palo Alto, CA                  |   1
+ mattcutts       | Matt Cutts           | Bay Area, California           |   1
+ remarkk         | Mark Kuznicki        | Toronto, Canada                |   1
+ shazow          | Andrey Petrov        | Palo Alto, CA                  |   1
+ jeffbalogh      | Jeff Balogh          | San Francisco                  |   1
+ joshu           | joshua schachter     |                                |   0
+ alexia          | Alexia Tsotsis       | iPhone: 34.008553,-118.489311  |   0
+ jhuber          | Jeff Huber           | Mountain View, CA              |   0
+ shawnkono       | Shawn Konopinsky     | iPhone: 42.932803,-78.766818   |   0
+ jrrmzz          | Jason                | Toronto                        |   0
+ nickbilton      | Nick Bilton          | Brooklyn, NY                   |   0
+ vkhosla         | Vinod Khosla         |                                |  -1
+ pkedrosky       | Paul Kedrosky        | La Jolla CA                    |  -1
+ jonpipitone     | Jon Pipitone         |                                |  -1
+ lance_          | lance underscore     | Toronto                        |  -1
+ LilaFontes      | LilaFontes           | North America                  |  -2
+ Joseph_Y        | Joseph Yeung         |                                |  -2
+ kevin           | Kevin S.             | San Francisco, CA.             |  -2
+ rabois          | Keith Rabois         | SF, CA                         |  -2
+ kevinrose       | Kevin Rose           | San Francisco, CA              |  -2
+ JVascellaro     | Jessica Vascellaro   | New York                       |  -2
+ TEDchris        | Chris Anderson       | New York City                  |  -2
+ m2jr            | Mike Maples          | California                     |  -2
+ AlecJRoss       | Alec Ross            | Everywhere                     |  -2
+ garrytan        | Garry Tan            | San Francisco, CA              |  -2
+ JasonHirschhorn | Jason Hirschhorn     | New York                       |  -3
+ pud             | Philip Kaplan        | San Francisco, CA              |  -3
+ lessig          | Lessig               | Brookline, MA                  |  -3
+ summersoulTO    | Jeremy Chan          | Toronto                        |  -3
+ eladgil         | Elad                 | San Francisco CA               |  -4
+ gideonyu        | Gideon Yu            | Silicon Valley (via Nashville) |  -4
+ Borthwick       | John Borthwick       | New York                       |  -4
+ markoff         | John Markoff         | San Francisco, CA              |  -4
+ fosslc          | Andrew Ross          | Ottawa, Ontario, Canada        |  -4
+ rtulk           | Rory Tulk            | Toronto                        |  -4
+ andrewtrusty    | andrewtrusty         | Toronto                        |  -5
+ edyson          | Esther Dyson         | in @davos in snow & parties    |  -5
+ drewhouston     | Drew Houston         | San Francisco, CA              |  -5
+ asenkut         | asenkut              | Palo Alto                      |  -5
+ dianelynnhorton | dianelynnhorton      | Toronto                        |  -5
+ irvingreid      | Irving Reid          | Toronto                        |  -5
+ sacca           | Chris Sacca          | San Francisco and Truckee, CA  |  -5
+ UCOSP           | UCOSP                | Canada                         |  -5
+ QueenRania      | Rania Al Abdullah    | Amman, Jordan                  |  -5
+ lizblankenship  | lizblankenship       |                                |  -6
+ flaps           | Alan Rosenthal       | southern Ontario               |  -6
+ quixotic        | Reid Hoffman         | Palo Alto, CA                  |  -6
+ parislemon      | MG Siegler           | San Francisco                  |  -6
+ mike_conley     | Mike Conley          | Toronto                        |  -6
+ om              | Om Malik             | ÜT: 37.795917,-122.39966       |  -6
+ elatable        | Bradley Horowitz     | Magic: 37.4319, -122.1467      |  -6
+ BradStone       | Brad Stone           | San Francisco                  |  -6
+ gvanrossum      | Guido van Rossum     | San Francisco Bay Area         |  -6
+ bhorowitz       | bhorowitz            |                                |  -6
+ VevWong         | Veronica Wong        | Toronto, Ontario               |  -7
+ shawnfanning    | shawnfanning         | San Francisco                  |  -8
+ bgurley         | Bill Gurley          | Sand Hill Road                 |  -8
+ spolsky         | Joel Spolsky         | New York, NY                   |  -9
+ gvwilson        | Greg Wilson          | Toronto, Ontario               |  -9
+ McAndrew        | Andrew McLaughlin    | Washington, DC                 |  -9
+ pgries          | Paul Gries           |                                |  -9
+ MarcBodnick     | Marc A. Bodnick      | Menlo Park, CA                 |  -9
+ fredwilson      | Fred Wilson          | New York City                  |  -9
+ phyllers        | Phyliss Lee          |                                | -10
+ zuzelvp         | Zuzel Vera           | Toronto                        | -10
+ drscan          | David Scannell       |                                | -10
+ mkapor          | Mitch Kapor          | San Francisco                  | -10
+ geoff_yang      | Geoff Yang           | Silicon Valley, CA             | -10
+ ericries        | Eric Ries            | SF                             | -10
+ hblodget        | Henry Blodget        |                                | -11
+ pchelinn        | Nikita Pchelin       | Mississauga                    | -11
+ aran_donohue    | Aran Donohue         | Toronto                        | -11
+ randizuckerberg | Randi Zuckerberg     | Silicon Valley                 | -12
+ jddimarco       | jddimarco            | Toronto, Ontario               | -12
+ mlevchin        | Max Levchin          | SF, CA                         | -12
+ jeff            | Jeff Clavier         | 37.446853,-122.161310          | -13
+ Harjeet         | Harjeet              | iPhone: 49.284729,-123.109573  | -13
+ paultoo         | Paul Buchheit        | San Francisco, CA              | -13
+ davidhornik     | David Hornik         | iPhone: 42.347153,-71.096069   | -13
+ cjmuise         | Christian Muise      | iPhone: 43.667969,-79.397385   | -14
+ satishd         | Satish Dharmaraj     | San Francisco Bay Area         | -14
+ joelcrocker     | Joel Crocker         | Toronto, ON                    | -14
+ nikesharora     | Nikesh Arora         | ÜT: 37.43737,-122.111096       | -14
+ erickschonfeld  | Erick Schonfeld      | New York                       | -15
+ jharjono        | Johan Harjono        |                                | -15
+ JBoorstin       | Julia Boorstin       | Los Angeles, CA                | -15
+ stevenjayl      | Steven Levy          | New York City                  | -15
+ mmccue          | Mike McCue           | Palo alto, ca                  | -16
+ karenreid       | karenreid            | Toronto                        | -17
+ peterfenton     | Peter Fenton         | ÜT: 34.043732,-118.256163      | -17
+ bgarlinghouse   | Brad Garlinghouse    |                                | -17
+ bingfish        | bing gordon          | ÜT: 37.766503,-122.397794      | -17
+ mattcohler      | Matt Cohler          |                                | -17
+ bijan           | Bijan Sabet          | Boston                         | -18
+ sarahcuda       | Sarah Lacy           | San Francisco, CA              | -18
+ markpinc        | mark pincus          | sf                             | -20
+ peterpham       | Peter                | Bay Area, CA                   | -21
+ naval           | Naval Ravikant       | San Francisco, CA              | -22
+ marissamayer    | marissamayer         | San Francisco, CA              | -23
+ btaylor         | Bret Taylor          | Mountain View, CA              | -25
+ johndoerr       | John Doerr           |                                | -26
+ karaswisher     | Kara Swisher         | San Francisco                  | -30
+ adamlashinsky   | Adam Lashinsky       |                                | -34
+(194 rows)
+
