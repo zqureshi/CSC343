@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!ELEMENT questions ((tf | mcq | numeric)*)>
-<!ELEMENT answer (#PCDATA)>
-<!ELEMENT tf (answer)>
-<!ATTLIST tf id   ID    #REQUIRED
+<!ELEMENT Questions ((TF | MCQ | Numeric)*)>
+<!ELEMENT TF (Answer)>
+<!ATTLIST TF id   ID    #REQUIRED
              text CDATA #REQUIRED>
+  <!ELEMENT Answer (#PCDATA)>
+<!ELEMENT MCQ (Answer, Choice+)>
+  <!ELEMENT Choice (#PCDATA)>
+  <!ATTLIST Choice hint CDATA #IMPLIED>
+<!ATTLIST MCQ id   ID    #REQUIRED
+              text CDATA #REQUIRED>
+<!ELEMENT Numeric (Answer, Hint*)>
+<!ATTLIST Numeric id   ID    #REQUIRED
+                  text CDATA #REQUIRED>
+<!ELEMENT Hint (#PCDATA)>
+<!ATTLIST Hint lower CDATA #REQUIRED
+               upper CDATA #REQUIRED>
