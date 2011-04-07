@@ -1,0 +1,4 @@
+<!ELEMENT N15 (Response*)>
+<!ELEMENT Response EMPTY>
+<!ATTLIST Response stnum CDATA #REQUIRED>
+<!ATTLIST Response answer CDATA #REQUIRED>

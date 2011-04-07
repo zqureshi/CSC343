@@ -1,0 +1,4 @@
+<!ELEMENT Grades (Student*)>
+<!ELEMENT Student EMPTY>
+<!ATTLIST Student stnum CDATA #REQUIRED>
+<!ATTLIST Student mark CDATA #REQUIRED>

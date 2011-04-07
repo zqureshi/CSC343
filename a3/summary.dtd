@@ -1,0 +1,5 @@
+<!ELEMENT Quiz (Question*)>
+<!ELEMENT Question (Body, Answer)>
+<!ATTLIST Question weight CDATA #REQUIRED>
+<!ELEMENT Body (#PCDATA)>
+<!ELEMENT Answer (#PCDATA)>
