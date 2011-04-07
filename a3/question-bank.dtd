@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!ELEMENT questions ((tf | mcq | numeric)*)>
+<!ELEMENT answer (#PCDATA)>
+<!ELEMENT tf (answer)>
+<!ATTLIST tf id   ID    #REQUIRED
+             text CDATA #REQUIRED>
