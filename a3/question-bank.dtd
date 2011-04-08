@@ -3,10 +3,12 @@
 <!ELEMENT TF (Answer)>
 <!ATTLIST TF id   ID    #REQUIRED
              text CDATA #REQUIRED>
-  <!ELEMENT Answer (#PCDATA)>
+  <!ELEMENT Answer EMPTY>
+  <!ATTLIST Answer text CDATA #REQUIRED>
 <!ELEMENT MCQ (Answer, Choice+)>
-  <!ELEMENT Choice (#PCDATA)>
-  <!ATTLIST Choice hint CDATA #IMPLIED>
+  <!ELEMENT Choice EMPTY>
+  <!ATTLIST Choice text CDATA #REQUIRED
+                   hint CDATA #IMPLIED>
 <!ATTLIST MCQ id   ID    #REQUIRED
               text CDATA #REQUIRED>
 <!ELEMENT Numeric (Answer, Hint*)>
@@ -14,4 +16,5 @@
                   text CDATA #REQUIRED>
 <!ELEMENT Hint (#PCDATA)>
 <!ATTLIST Hint lower CDATA #REQUIRED
-               upper CDATA #REQUIRED>
+               upper CDATA #REQUIRED
+               text  CDATA #REQUIRED>
