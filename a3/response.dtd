@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!ELEMENT Responses (Student+)>
+<!ATTLIST Responses quiz ID #REQUIRED>
+<!ELEMENT Student (Response+)>
+<!-- When setting 'id' to be of type ID, xmllint throws an error
+     when just numbers in an ID -->
+<!ATTLIST Student id CDATA #REQUIRED>
+<!ELEMENT Response EMPTY>
+<!-- Could set answered to have DEFAULT value true, but keeping it required
+     for the sake of simplicity in writing the XQuery.
+     Similarly, valueis required, although will not be considered if
+     answered is FALSE -->
+<!ATTLIST Response answered (True|False) #REQUIRED
+                   value    CDATA        #REQUIRED>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Responses SYSTEM "response.dtd">
+<Responses quiz="Pr1-220310">
+  <Student id="998801234">
+    <Response answered="True" value="1950"/>
+    <Response answered="True" value="False"/>
+    <Response answered="True" value="They expanded their defence system, including Fort York"/>
+    <Response answered="True" value="A network used by slaves who escaped the United States into Canada"/>
+  </Student>
+  <Student id="001078452">
+    <Response answered="True" value="1960"/>
+    <Response answered="True" value="False"/>
+    <Response answered="True" value="They burned down the White House in Washington D.C."/>
+    <Response answered="True" value="A network used by slaves who escaped the United States into Canada"/>
+  </Student>
+  <Student id="997733991">
+    <Response answered="True" value="1960"/>
+    <Response answered="True" value="True"/>
+    <Response answered="True" value="They burned down the White House in Washington D.C."/>
+    <Response answered="True" value="The CPR's secret railway line"/>
+  </Student>
+  <Student id="555555555">
+    <Response answered="False" value=""/>
+    <Response answered="True" value="False"/>
+    <Response answered="True" value="They captured Niagara Falls"/>
+    <Response answered="False" value=""/>
+  </Student>
+</Responses>
