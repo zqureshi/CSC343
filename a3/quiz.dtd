@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!ELEMENT Quiz (Question+)>
+<!ATTLIST Quiz id    ID           #REQUIRED
+               title CDATA        #REQUIRED
+               hints (True|False) #REQUIRED>
+
+<!-- attribute 'id' of Question shold be an IDREF but since the
+  questions are from another dtd, just make sure here that they are unique -->
+<!ELEMENT Question EMPTY>
+<!ATTLIST Question id     ID    #REQUIRED
+                   weight CDATA #REQUIRED>

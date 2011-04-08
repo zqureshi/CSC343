@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Quiz SYSTEM "quiz.dtd">
+<Quiz id="Pr1-220310" title="Citizenship Test Practise Questions" hints="True">
+  <Question id="N-15" weight="2"/>
+  <Question id="TF-01" weight="1"/>
+  <Question id="MC-05" weight="3"/>
+  <Question id="MC-08" weight="2"/>
+</Quiz>
