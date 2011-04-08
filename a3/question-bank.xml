@@ -1,4 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!DOCTYPE questions SYSTEM "question-bank.dtd">
-<questions>
-</questions>
+<!DOCTYPE Questions SYSTEM "question-bank.dtd">
+<Questions>
+  <MCQ id="MC-01" text="What do you promise when you take the oath of citizenship?">
+    <Answer text="To pledge your loyalty to the Sovereign, Queen Elizabeth II"/>
+    <Choice text="To pledge your allegiance to the flag and fulfill the duties of a Canadian" hint="Think regally"/>
+    <Choice text="To pledge your loyalty to Canada from sea to sea"/>
+  </MCQ>
+  <TF id="TF-01" text="The Prime Minister, Stephen Harper, is Canada's Head of State.">
+    <Answer text="False"/>
+  </TF>
+  <Numeric id="N-15" text="During the &quot;Quiet Revolution,&quot; Quebec experienced rapid change. In what decade did this occur? (Enter the year that began the decade, e.g., 1840.)">
+    <Answer text="1960"/>
+    <Hint lower="1800" upper="1900" text="The Quiet Revolution happened during the 20th Century."/>
+    <Hint lower="2000" upper="2010" text="The Quiet Revolution happened some time ago."/>
+    <Hint lower="2020" upper="3000" text="The Quiet Revolution has already happened!"/>
+  </Numeric>
+  <MCQ id="MC-08" text="What is the Underground Railroad?">
+    <Choice text="The first railway to cross Canada" hint="The Underground Railroad was generally south to north, not east-west."/>
+    <Choice text="The CPR's secret railway line" hint="The Underground Railroad was secret, but it had nothing to do with trains."/>
+    <Choice text="The TTC subway system" hint="The TTC is relatively recent; the Underground Railroad was in operation over 100 years ago."/>
+    <Answer text="The TTC is relatively recent; the Underground Railroad was in operation over 100 years ago."/>
+  </MCQ>
+  <MCQ id="MC-05" text="During the War of 1812 the Americans burned down the Parliament Buildings in York (now Toronto). What did the British and Canadians do in return?">
+    <Choice text="They attacked American merchant ships"/>
+    <Choice text="They expanded their defence system, including Fort York"/>
+    <Answer text="They burned down the White House in Washington D.C."/>
+    <Choice text="They captured Niagara Falls"/>
+  </MCQ>
+</Questions>

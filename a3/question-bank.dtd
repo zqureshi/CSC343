@@ -5,13 +5,16 @@
              text CDATA #REQUIRED>
   <!ELEMENT Answer EMPTY>
   <!ATTLIST Answer text CDATA #REQUIRED>
-<!ELEMENT MCQ (Answer, Choice+)>
+<!--- Were using ((Choice+, Answer, Choice*) | (Choice*, Answer, Choice+))
+     but xmllint complaint that expression is non-deterministic 
+     so not enforcing the 'at least 1 choice' constraint -->
+<!ELEMENT MCQ (Choice*, Answer, Choice*)>
   <!ELEMENT Choice EMPTY>
   <!ATTLIST Choice text CDATA #REQUIRED
                    hint CDATA #IMPLIED>
 <!ATTLIST MCQ id   ID    #REQUIRED
               text CDATA #REQUIRED>
-<!ELEMENT Numeric (Answer, Hint*)>
+<!ELEMENT Numeric (Answer, Hint+)>
 <!ATTLIST Numeric id   ID    #REQUIRED
                   text CDATA #REQUIRED>
 <!ELEMENT Hint (#PCDATA)>
