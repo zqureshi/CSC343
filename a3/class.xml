@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!DOCTYPE Responses SYSTEM "response.dtd">
+<!DOCTYPE Responses SYSTEM "class.dtd">
 <Responses quiz="Pr1-220310">
   <Student id="998801234">
     <Response answered="True" value="1950"/>

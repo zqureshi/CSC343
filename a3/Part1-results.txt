@@ -1,0 +1,108 @@
+Executing Assignment 3 Queries
+
+======= Generating query output =======
+
+--- Query q1 ---
+
+Raw results:
+attribute text {"What do you promise when you take the oath of citizenship?"},
+attribute text {
+  "The Prime Minister, Stephen Harper, is Canada&apos;s Head of State."
+},
+attribute text {
+  "During the &quot;Quiet Revolution,&quot; Quebec experienced rapid change. In what decade did this occur? (Enter the year that began the decade, e.g., 1840.)"
+},
+attribute text {"What is the Underground Railroad?"},
+attribute text {
+  "During the War of 1812 the Americans burned down the Parliament Buildings in York (now Toronto). What did the British and Canadians do in return?"
+}
+
+--- Query q2 ---
+
+Raw results:
+<Questions><MCQ text="What do you promise when you take the oath of citizenship?" answer="To pledge your loyalty to the Sovereign, Queen Elizabeth II"/><MCQ text="What is the Underground Railroad?" answer="A network used by slaves who escaped the United States into Canada"/><MCQ text="During the War of 1812 the Americans burned down the Parliament Buildings in York (now Toronto). What did the British and Canadians do in return?" answer="They burned down the White House in Washington D.C."/></Questions>
+
+--- Query q3 ---
+
+Raw results:
+2
+
+--- Query q4 ---
+
+Raw results:
+attribute text {
+  "During the War of 1812 the Americans burned down the Parliament Buildings in York (now Toronto). What did the British and Canadians do in return?"
+}
+
+--- Query q5 ---
+
+Raw results:
+<Unanswered student="555555555" question="N-15"/>,
+<Unanswered student="555555555" question="MC-08"/>
+
+--- Query q6 ---
+
+Raw results:
+<N15><Response stnum="998801234" answer="1950"/><Response stnum="001078452" answer="1960"/><Response stnum="997733991" answer="1960"/></N15>
+
+Pretty results:
+<?xml version="1.0" standalone="no"?>
+<N15>
+  <Response stnum="998801234" answer="1950"/>
+  <Response stnum="001078452" answer="1960"/>
+  <Response stnum="997733991" answer="1960"/>
+</N15>
+
+--- Query q7 ---
+
+Raw results:
+<Quiz><Question weight="2"><Body>During the &quot;Quiet Revolution,&quot; Quebec experienced rapid change. In what decade did this occur? (Enter the year that began the decade, e.g., 1840.)</Body><Answer>1960</Answer></Question><Question weight="1"><Body>The Prime Minister, Stephen Harper, is Canada&apos;s Head of State.</Body><Answer>False</Answer></Question><Question weight="3"><Body>During the War of 1812 the Americans burned down the Parliament Buildings in York (now Toronto). What did the British and Canadians do in return?</Body><Answer>They burned down the White House in Washington D.C.</Answer></Question><Question weight="2"><Body>What is the Underground Railroad?</Body><Answer>A network used by slaves who escaped the United States into Canada</Answer></Question></Quiz>
+
+Pretty results:
+<?xml version="1.0" standalone="no"?>
+<Quiz>
+  <Question weight="2">
+    <Body>During the "Quiet Revolution," Quebec experienced rapid change. In what decade did this occur? (Enter the year that began the decade, e.g., 1840.)</Body>
+    <Answer>1960</Answer>
+  </Question>
+  <Question weight="1">
+    <Body>The Prime Minister, Stephen Harper, is Canada's Head of State.</Body>
+    <Answer>False</Answer>
+  </Question>
+  <Question weight="3">
+    <Body>During the War of 1812 the Americans burned down the Parliament Buildings in York (now Toronto). What did the British and Canadians do in return?</Body>
+    <Answer>They burned down the White House in Washington D.C.</Answer>
+  </Question>
+  <Question weight="2">
+    <Body>What is the Underground Railroad?</Body>
+    <Answer>A network used by slaves who escaped the United States into Canada</Answer>
+  </Question>
+</Quiz>
+
+--- Query q8 ---
+
+Raw results:
+<Grades><Student stnum="998801234" mark="3"/><Student stnum="001078452" mark="8"/><Student stnum="997733991" mark="5"/><Student stnum="555555555" mark="1"/></Grades>
+
+Pretty results:
+<?xml version="1.0" standalone="no"?>
+<Grades>
+  <Student stnum="998801234" mark="3"/>
+  <Student stnum="001078452" mark="8"/>
+  <Student stnum="997733991" mark="5"/>
+  <Student stnum="555555555" mark="1"/>
+</Grades>
+
+======= Validating xml =======
+
+--- Query q6 ---
+Results well-formed?
+Results valid?
+
+--- Query q7 ---
+Results well-formed?
+Results valid?
+
+--- Query q8 ---
+Results well-formed?
+Results valid?

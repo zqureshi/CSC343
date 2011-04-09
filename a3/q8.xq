@@ -4,7 +4,7 @@
 {
 let $bank := doc("question-bank.xml")/Questions
 let $quiz := doc("quiz.xml")/Quiz
-for $student in doc("response.xml")/Responses/Student
+for $student in doc("class.xml")/Responses/Student
   let $marks := for $response at $pos in $student/Response
                 let $question := $quiz/Question[$pos]
                 return if ($response/@answered = "True" and $response/@value = $bank/*[@id = $question/@id]/Answer/@text)
