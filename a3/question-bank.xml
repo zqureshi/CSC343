@@ -19,7 +19,7 @@
     <Choice text="The first railway to cross Canada" hint="The Underground Railroad was generally south to north, not east-west."/>
     <Choice text="The CPR's secret railway line" hint="The Underground Railroad was secret, but it had nothing to do with trains."/>
     <Choice text="The TTC subway system" hint="The TTC is relatively recent; the Underground Railroad was in operation over 100 years ago."/>
-    <Answer text="The TTC is relatively recent; the Underground Railroad was in operation over 100 years ago."/>
+    <Answer text="A network used by slaves who escaped the United States into Canada"/>
   </MCQ>
   <MCQ id="MC-05" text="During the War of 1812 the Americans burned down the Parliament Buildings in York (now Toronto). What did the British and Canadians do in return?">
     <Choice text="They attacked American merchant ships"/>
